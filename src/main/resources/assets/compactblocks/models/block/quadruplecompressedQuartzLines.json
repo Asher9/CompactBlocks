@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/quadruplecompressedQuartzLines_top",
+		"down": "compactblocks:blocks/quadruplecompressedQuartzLines_top",
+        "north": "compactblocks:blocks/quadruplecompressedQuartzLines_side",
+		"south": "compactblocks:blocks/quadruplecompressedQuartzLines_side",
+		"west": "compactblocks:blocks/quadruplecompressedQuartzLines_side",
+		"east": "compactblocks:blocks/quadruplecompressedQuartzLines_side"
+    }
+}

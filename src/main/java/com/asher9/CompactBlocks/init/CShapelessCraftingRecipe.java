@@ -1,6 +1,5 @@
 package com.asher9.CompactBlocks.init;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.api.EnumHandler;
 import com.asher9.CompactBlocks.util.Utils;
 
@@ -234,7 +233,7 @@ public static void ShapelessCraftingRecipe() {
 	GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.compressedSeaLantern, 9), new ItemStack(CBlocks.doublecompressedSeaLantern));
 	GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.doublecompressedSeaLantern, 9), new ItemStack(CBlocks.triplecompressedSeaLantern));
 	GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.triplecompressedSeaLantern, 9), new ItemStack(CBlocks.quadruplecompressedSeaLantern));
-	GameRegistry.addShapelessRecipe(new ItemStack(Blocks.field_189878_dg, 9), new ItemStack(CBlocks.compressedNetherWartBlock)); 
+	GameRegistry.addShapelessRecipe(new ItemStack(Blocks.NETHER_WART_BLOCK, 9), new ItemStack(CBlocks.compressedNetherWartBlock));
 	GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.compressedNetherWartBlock, 9), new ItemStack(CBlocks.doublecompressedNetherWartBlock));
 	GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.doublecompressedNetherWartBlock, 9), new ItemStack(CBlocks.triplecompressedNetherWartBlock));
 	GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.triplecompressedNetherWartBlock, 9), new ItemStack(CBlocks.quadruplecompressedNetherWartBlock));

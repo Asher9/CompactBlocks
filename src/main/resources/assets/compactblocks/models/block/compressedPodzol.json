@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/compressedPodzol_top",
+		"down": "compactblocks:blocks/compressedDirt",
+        "north": "compactblocks:blocks/compressedPodzol_side",
+		"south": "compactblocks:blocks/compressedPodzol_side",
+		"west": "compactblocks:blocks/compressedPodzol_side",
+		"east": "compactblocks:blocks/compressedPodzol_side"
+    }
+}

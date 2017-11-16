@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/doublecompressedQuartzChiseled_top",
+		"down": "compactblocks:blocks/doublecompressedQuartzChiseled_top",
+        "north": "compactblocks:blocks/doublecompressedQuartzChiseled_side",
+		"south": "compactblocks:blocks/doublecompressedQuartzChiseled_side",
+		"west": "compactblocks:blocks/doublecompressedQuartzChiseled_side",
+		"east": "compactblocks:blocks/doublecompressedQuartzChiseled_side"
+    }
+}

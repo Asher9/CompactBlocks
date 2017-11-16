@@ -253,12 +253,12 @@ public class CShapedCraftingRecipe {
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedSeaLantern),  "###", "###", "###", '#', CBlocks.compressedSeaLantern);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedSeaLantern), "###", "###", "###", '#', CBlocks.doublecompressedSeaLantern);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedSeaLantern), "###", "###", "###", '#', CBlocks.triplecompressedSeaLantern);
-		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedNetherWartBlock), "###", "###", "###", '#', Blocks.field_189878_dg);
+		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedNetherWartBlock), "###", "###", "###", '#', Blocks.NETHER_WART_BLOCK);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedNetherWartBlock),  "###", "###", "###", '#', CBlocks.compressedNetherWartBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedNetherWartBlock), "###", "###", "###", '#', CBlocks.doublecompressedNetherWartBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedNetherWartBlock), "###", "###", "###", '#', CBlocks.triplecompressedNetherWartBlock);
 		
-		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedMagmaBlock), "###", "###", "###", '#', Blocks.field_189877_df);
+		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedMagmaBlock), "###", "###", "###", '#', Blocks.MAGMA);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedMagmaBlock),  "###", "###", "###", '#', CBlocks.compressedMagmaBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedMagmaBlock), "###", "###", "###", '#', CBlocks.doublecompressedMagmaBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedMagmaBlock), "###", "###", "###", '#', CBlocks.triplecompressedMagmaBlock);
