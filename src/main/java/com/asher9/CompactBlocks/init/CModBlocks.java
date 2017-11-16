@@ -1,9 +1,7 @@
 package com.asher9.CompactBlocks.init;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.ItemBlocks.ItemBlockMeta;
-import com.asher9.CompactBlocks.api.CreativeTabCreator;
 import com.asher9.CompactBlocks.api.EnumHandler;
 import com.asher9.CompactBlocks.util.Utils;
 

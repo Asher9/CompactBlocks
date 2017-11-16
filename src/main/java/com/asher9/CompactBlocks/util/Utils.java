@@ -3,7 +3,6 @@ package com.asher9.CompactBlocks.util;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 
 public class Utils {

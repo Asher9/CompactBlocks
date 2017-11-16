@@ -30,9 +30,11 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
+import javax.annotation.Nullable;
+
 public class compressedColorGlass extends BlockBreakable implements IMetaBlockName {
 	
-    public static final PropertyEnum TYPE = PropertyEnum.create("type", ColorTypes.class);
+    private static final PropertyEnum TYPE = PropertyEnum.create("type", ColorTypes.class);
 
     public compressedColorGlass(Material materialIn, boolean ignoreSimilarityIn, String unlocalizedName, float hardness, float resistance, float lightLevel, String tool, int harvestLevel, CreativeTabs creativeTab, SoundType stepSound)
     {

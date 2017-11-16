@@ -1,10 +1,8 @@
 package com.asher9.CompactBlocks.item.tools;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.init.CBlocks;
 
-import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;

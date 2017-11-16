@@ -1,18 +1,12 @@
 package com.asher9.CompactBlocks.block;
 
-import java.util.Random;
-
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.api.BlockBreakable;
 
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.relauncher.Side;

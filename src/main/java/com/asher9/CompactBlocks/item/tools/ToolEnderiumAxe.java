@@ -1,25 +1,16 @@
 package com.asher9.CompactBlocks.item.tools;
- 
-import java.util.List;
+
 import java.util.Set;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.init.CItems;
 import com.google.common.collect.Sets;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.state.IBlockState;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemAxe;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.item.Item.ToolMaterial;
  
 public class ToolEnderiumAxe extends ItemTool {
      
@@ -36,11 +27,7 @@ public class ToolEnderiumAxe extends ItemTool {
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-
-    	if(repair.getItem().equals(CItems.ingotEnderium))
-    		return true;
-    	else
-    		return false;
+        return repair.getItem().equals(CItems.ingotEnderium);
     }
  
 }

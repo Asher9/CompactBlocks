@@ -1,12 +1,10 @@
 package com.asher9.CompactBlocks.api;
 
-import net.minecraft.block.material.MapColor;
 import net.minecraft.util.IStringSerializable;
-import net.minecraft.util.text.TextFormatting;
 
 public class EnumHandler {
 
-	public static enum ColorTypes implements IStringSerializable {
+	public enum ColorTypes implements IStringSerializable {
 		WHITE("white", 0),
 	    ORANGE("orange", 1),
 	    MAGENTA("magenta", 2),
@@ -27,7 +25,7 @@ public class EnumHandler {
 		private int ID;
 		private String name;
 
-		private ColorTypes(String name, int ID) {
+		ColorTypes(String name, int ID) {
 			this.ID = ID;
 			this.name = name;
 		}
@@ -48,7 +46,7 @@ public class EnumHandler {
 
 	}
 	
-	public static enum WoodTypes implements IStringSerializable {
+	public enum WoodTypes implements IStringSerializable {
 		OAK("oak", 0),
 	    SPRUCE("spruce", 1),
 	    BIRCH("birch", 2),
@@ -59,7 +57,7 @@ public class EnumHandler {
 		private int ID;
 		private String name;
 
-		private WoodTypes(String name, int ID) {
+		WoodTypes(String name, int ID) {
 			this.ID = ID;
 			this.name = name;
 		}

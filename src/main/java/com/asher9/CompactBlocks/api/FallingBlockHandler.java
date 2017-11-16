@@ -75,7 +75,7 @@ public class FallingBlockHandler extends Block
 
                 for (blockpos = pos.down(); (worldIn.isAirBlock(blockpos) || canFallThrough(worldIn.getBlockState(blockpos))) && blockpos.getY() > 0; blockpos = blockpos.down())
                 {
-                    ;
+
                 }
 
                 if (blockpos.getY() > 0)
@@ -86,7 +86,7 @@ public class FallingBlockHandler extends Block
         }
     }
 
-    protected void onStartFalling(EntityFallingBlock fallingEntity)
+    private void onStartFalling(EntityFallingBlock fallingEntity)
     {
     }
 

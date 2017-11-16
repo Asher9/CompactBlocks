@@ -4,27 +4,22 @@ import java.util.Random;
 
 import javax.annotation.Nullable;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.MathHelper;
 
 public class oreEndEnderium extends Block {
 
-	public static Item drop;
-	public int meta;
-	public int least_quantity;
-	public int most_quantity;
+	private static Item drop;
+	private int least_quantity;
+	private int most_quantity;
 
 	public oreEndEnderium(Material material, String unlocalizedName, float hardness, float resistance, float lightLevel,String tool, int harvestLevel, CreativeTabs creativeTab, SoundType stepSound, Item drop, int least_quantity, int most_quantity) {
 		super(material);

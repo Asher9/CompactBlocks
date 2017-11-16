@@ -1,6 +1,5 @@
 package com.asher9.CompactBlocks.api;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.config.Configurations;
 import com.asher9.CompactBlocks.init.CBlocks;
 import com.asher9.CompactBlocks.init.CItems;
@@ -58,7 +57,6 @@ public class CreativeTabCreator {
 		Utils.getLogger().info("Loading Creative Tabs...");
 
 		tabcompressedBlocks.setTabIconItemStack(new ItemStack(CBlocks.blockEnderium));
-		//tabcompressedWoodBlocks.setTabIconItemStack(new ItemStack(CBlocks.compressedAcaciaWoodLog));
 		tabcompressedWoodBlocks.setTabIconItemStack(new ItemStack(CBlocks.compressedWoodLog));
 		tabcompressedGlassBlocks.setTabIconItemStack(new ItemStack(CBlocks.compressedColorGlass));
 		tabcompressedClayBlocks.setTabIconItemStack(new ItemStack(CBlocks.compressedHardenedClay));

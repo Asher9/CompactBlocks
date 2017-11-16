@@ -1,6 +1,5 @@
 package com.asher9.CompactBlocks.init;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.util.Utils;
 
 import net.minecraft.item.ItemStack;

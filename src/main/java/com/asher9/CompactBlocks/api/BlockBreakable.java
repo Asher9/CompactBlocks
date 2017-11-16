@@ -22,7 +22,7 @@ public class BlockBreakable extends Block
         this(materialIn, ignoreSimilarityIn, materialIn.getMaterialMapColor());
     }
 
-    protected BlockBreakable(Material materialIn, boolean ignoreSimilarityIn, MapColor mapColorIn)
+    private BlockBreakable(Material materialIn, boolean ignoreSimilarityIn, MapColor mapColorIn)
     {
         super(materialIn, mapColorIn);
         this.ignoreSimilarity = ignoreSimilarityIn;
@@ -57,6 +57,7 @@ public class BlockBreakable extends Block
             }
         }
 
-        return !this.ignoreSimilarity && block == this ? false : super.shouldSideBeRendered(blockState, blockAccess, pos, side);
+        //return !this.ignoreSimilarity && block == this ? false : super.shouldSideBeRendered(blockState, blockAccess, pos, side);
+        return (this.ignoreSimilarity || block!=this) && super.shouldSideBeRendered(blockState, blockAccess, pos, side);
     }
 }

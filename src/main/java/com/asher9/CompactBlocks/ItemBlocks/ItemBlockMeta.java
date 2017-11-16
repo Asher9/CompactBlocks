@@ -1,7 +1,5 @@
 package com.asher9.CompactBlocks.ItemBlocks;
 
-import org.omg.CORBA.TRANSACTION_MODE;
-
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;

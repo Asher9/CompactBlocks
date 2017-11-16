@@ -2,12 +2,7 @@ package com.asher9.CompactBlocks.api;
 
 import com.asher9.CompactBlocks.util.UpdateChecker;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.util.text.TextComponentString;
-import net.minecraftforge.event.world.ChunkDataEvent;
-import net.minecraftforge.fml.common.eventhandler.EventPriority;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.fml.common.gameevent.PlayerEvent.PlayerLoggedInEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 

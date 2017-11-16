@@ -16,16 +16,15 @@ import net.minecraft.util.text.TextFormatting;
 
 public class UpdateChecker {
 	
-	private static final String UPDATE_URL = Configurations.updateAddress; //"https://www.dropbox.com/s/dmy98y49dqkl71d/modversion.txt?dl=1";
+	private static final String UPDATE_URL = Configurations.updateAddress;
 	private static String currentVersion = Reference.getVersion();
 	private static String newestVersion;
 	
 	private static int currentVersionInt;
 	private static int newestVersionInt;
-	
-	public static String updateStatus = "NULL";
-	public static boolean show = false;
-	private static String updates;
+
+    private static String updateStatus = "NULL";
+    private static boolean show = false;
 	private static int a = 0;
 	
 	public static void init() {

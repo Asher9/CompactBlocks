@@ -1,7 +1,5 @@
 package com.asher9.CompactBlocks.api;
 
-import com.asher9.CompactBlocks.CompactBlocks;
-
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 

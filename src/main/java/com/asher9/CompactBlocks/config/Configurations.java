@@ -3,7 +3,6 @@ package com.asher9.CompactBlocks.config;
 import java.io.File;
 
 import com.asher9.CompactBlocks.Reference;
-import com.ibm.icu.util.ULocale.Category;
 
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
@@ -12,8 +11,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class Configurations {
 
 	public static Configuration config;
-
-	public static boolean configExists;
 	
 	//activate Items
 	public static boolean activateCobblestonePickaxe;
@@ -38,7 +35,7 @@ public class Configurations {
 	
 	//Mod Update Check
 	public static String updateAddress;
-	private static String UpdateURL = "https://pastebin.com/raw/CdjXKmdm";
+	private static String UpdateURL = "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.10.2/ModVersion.txt";
 	
 	@SubscribeEvent
 	public void configChanged(ConfigChangedEvent event){
@@ -60,7 +57,7 @@ public class Configurations {
 		activateDirtPickaxe = config.get("RECIPES", "ActivateDirtPickaxe", true).getBoolean();
 		activateGravelPickaxe = config.get("RECIPES", "ActivateGravelPickaxe", true).getBoolean();	
 		
-		//compressedBlockReceipes
+		//compressedBlockRecipes
 		activateCompressedCobblestone = config.get("RECIPES", "ActivateCompressedCobblestone", true).getBoolean();
 		activateCompressedGravel = config.get("RECIPES", "ActivateCompressedGravel", true).getBoolean();
 		activateCompressedSand = config.get("RECIPES", "ActivateCompressedSand", true).getBoolean();

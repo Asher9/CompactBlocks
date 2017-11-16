@@ -31,7 +31,7 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CompactBlocks {
 	
 	@SidedProxy(clientSide = Reference.ClientSide, serverSide = Reference.ServerSide)
-	public static CommonProxy proxy;
+	private static CommonProxy proxy;
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {

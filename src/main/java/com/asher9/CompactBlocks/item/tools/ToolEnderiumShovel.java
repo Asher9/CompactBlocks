@@ -1,6 +1,5 @@
 package com.asher9.CompactBlocks.item.tools;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.init.CItems;
 
@@ -20,11 +19,7 @@ public class ToolEnderiumShovel extends ItemSpade {
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-
-    	if(repair.getItem().equals(CItems.ingotEnderium))
-    		return true;
-    	else
-    		return false;
+		return repair.getItem().equals(CItems.ingotEnderium);
     }
 
 }

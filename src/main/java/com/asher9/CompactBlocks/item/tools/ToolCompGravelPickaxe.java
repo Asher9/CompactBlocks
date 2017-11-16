@@ -1,6 +1,5 @@
 package com.asher9.CompactBlocks.item.tools;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.init.CBlocks;
 
@@ -20,10 +19,6 @@ public class ToolCompGravelPickaxe extends ItemPickaxe {
     @Override
     public boolean getIsRepairable(ItemStack toRepair, ItemStack repair)
     {
-
-    	if(repair.getItem().equals(Item.getItemFromBlock(CBlocks.quadruplecompressedGravel)))
-    		return true;
-    	else
-    		return false;
+    	return repair.getItem().equals(Item.getItemFromBlock(CBlocks.quadruplecompressedGravel));
     }
 }

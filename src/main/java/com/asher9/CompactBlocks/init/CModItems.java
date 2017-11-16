@@ -39,13 +39,13 @@ public class CModItems {
 		registerRender(CItems.compressedSandPickaxe);
 	}
 	
-	public static void registerItem(Item item) {
+	private static void registerItem(Item item) {
 		GameRegistry.register(item);
 		item.setCreativeTab(CreativeTabCreator.tabcompressedItems);
 		Utils.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
 	}
 	
-	public static void registerRender(Item item) {
+	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(Reference.getModid(), item.getUnlocalizedName().substring(5)), "inventory"));
 		Utils.getLogger().info("Registered Render for: " + item.getUnlocalizedName().substring(5));
 	}

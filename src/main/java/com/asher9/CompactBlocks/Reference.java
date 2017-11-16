@@ -9,22 +9,22 @@ public class Reference {
 	public static final String ServerSide = "com.asher9.CompactBlocks.proxies.CommonProxy";
 	public static final String GuiFactory = "com.asher9.CompactBlocks.config.GuiFactory";
 	
-	public static String getGuiFactory() {
+	public static final String getGuiFactory() {
 		return GuiFactory;
 	}
-	public static String getModid() {
+	public static final String getModid() {
 		return MODID;
 	}
-	public static String getModname() {
+	public static final String getModname() {
 		return MODNAME;
 	}
-	public static String getVersion() {
+	public static final String getVersion() {
 		return VERSION;
 	}
-	public static String getClientSide() {
+	public static final String getClientSide() {
 		return ClientSide;
 	}
-	public static String getServerSide() {
+	public static final String getServerSide() {
 		return ServerSide;
 	}
 

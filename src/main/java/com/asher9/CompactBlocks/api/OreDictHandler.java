@@ -1,12 +1,10 @@
 package com.asher9.CompactBlocks.api;
 
-import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.init.CBlocks;
 import com.asher9.CompactBlocks.init.CItems;
 import com.asher9.CompactBlocks.util.Utils;
 
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.oredict.OreDictionary;
 
 public class OreDictHandler {

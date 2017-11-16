@@ -45,7 +45,7 @@ public class CShapedCraftingRecipe {
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedCoalBlock), "###", "###", "###", '#', CBlocks.doublecompressedCoalBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedCoalBlock), "###", "###", "###", '#', CBlocks.triplecompressedCoalBlock);
 		
-		GameRegistry.addRecipe(new ShapedOreRecipe(CItems.ingotEnderium, true, new Object[]{ "###", "###", "###", Character.valueOf('#'), "nuggetEnderium"}));
+		GameRegistry.addRecipe(new ShapedOreRecipe(CItems.ingotEnderium, true, new Object[]{ "###", "###", "###", Character.valueOf ('#'), "nuggetEnderium"}));
 		GameRegistry.addRecipe(new ShapedOreRecipe(CBlocks.blockEnderium, true, new Object[]{ "###", "###", "###", Character.valueOf('#'), "ingotEnderium"}));
 		GameRegistry.addRecipe(new ShapedOreRecipe(CItems.enderiumPickaxe, true, new Object[]{ "###", " I ", " I ", Character.valueOf('#'), "ingotEnderium", Character.valueOf('I'), Items.STICK}));
 		GameRegistry.addRecipe(new ShapedOreRecipe(CItems.enderiumAxe, true, new Object[]{ "## ", "#I ", " I ", Character.valueOf('#'), "ingotEnderium", Character.valueOf('I'), Items.STICK}));
