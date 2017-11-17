@@ -9,13 +9,15 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
+import javax.annotation.Nonnull;
+
 public class CreativeTabCreator {
 	
 	private static class CustomCreativeTab extends CreativeTabs {
 		
 		private ItemStack stack;
 
-		public CustomCreativeTab(String label) {
+		private CustomCreativeTab(String label) {
 			super(label);
 			if (Configurations.creativeTabSearch) {
 				setBackgroundImageName("item_search.png");
@@ -23,25 +25,24 @@ public class CreativeTabCreator {
 		}
 
 		@Override
+		@Nonnull
 		public Item getTabIconItem() {
 			return stack.getItem();
 		}
 
-		public void setTabIconItemStack(ItemStack stack) {
+		private void setTabIconItemStack(ItemStack stack) {
 			this.stack = stack;
 		}
 
 		@Override
+		@Nonnull
 		public ItemStack getIconItemStack() {
 			return stack;
 		}
 		
 		@Override
 		public boolean hasSearchBar() {
-			if (Configurations.creativeTabSearch) {
-				return true;
-			}
-			return false;
+			return Configurations.creativeTabSearch;
 		}
 	}
 

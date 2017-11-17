@@ -4,7 +4,6 @@ import java.util.Random;
 
 import com.asher9.CompactBlocks.init.CBlocks;
 import com.google.common.base.Predicate;
-
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.init.Blocks;
@@ -15,6 +14,8 @@ import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
+
+import javax.annotation.Nullable;
 
 public class WorldGen implements IWorldGenerator{
 
@@ -44,11 +45,11 @@ public class WorldGen implements IWorldGenerator{
 		
 	}
 
-	
+	@SuppressWarnings("unchecked")
 	private void runGenerator(IBlockState ore, World world, Random random, int chunk_X, int chunk_Z, int chancesToSpawn, int size, int minHeight, int maxHeight, Predicate predicate) {
 	    if (minHeight < 0 || maxHeight > 256 || minHeight > maxHeight)
 	        throw new IllegalArgumentException("Illegal Height Arguments for WorldGenerator");
-		
+
 		int heightDiff = maxHeight - minHeight + 1;
 		//Predicate netherPredicate = BlockMatcher.forBlock(Blocks.NETHERRACK);
 		for (int i = 0; i < chancesToSpawn; i++){

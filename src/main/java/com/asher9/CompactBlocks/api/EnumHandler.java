@@ -2,6 +2,8 @@ package com.asher9.CompactBlocks.api;
 
 import net.minecraft.util.IStringSerializable;
 
+import javax.annotation.Nonnull;
+
 public class EnumHandler {
 
 	public enum ColorTypes implements IStringSerializable {
@@ -31,6 +33,7 @@ public class EnumHandler {
 		}
 
 		@Override
+		@Nonnull
 		public String getName() {
 			return this.name;
 		}
@@ -63,6 +66,7 @@ public class EnumHandler {
 		}
 
 		@Override
+		@Nonnull
 		public String getName() {
 			return this.name;
 		}

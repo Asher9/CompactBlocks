@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class Configurations {
 
+	@SuppressWarnings("WeakerAccess")
 	public static Configuration config;
 	
 	//activate Items
@@ -35,7 +36,8 @@ public class Configurations {
 	
 	//Mod Update Check
 	public static String updateAddress;
-	private static String UpdateURL = "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.10.2/ModVersion.txt";
+
+	private static final String UpdateURL = "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.10.2/ModVersion.txt";
 	
 	@SubscribeEvent
 	public void configChanged(ConfigChangedEvent event){

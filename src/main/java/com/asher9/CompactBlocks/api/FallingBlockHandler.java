@@ -16,7 +16,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class FallingBlockHandler extends Block
 {
-    public static boolean fallInstantly;
+    private static boolean fallInstantly;
 
     public FallingBlockHandler()
     {
@@ -98,7 +98,7 @@ public class FallingBlockHandler extends Block
         return 2;
     }
 
-    public static boolean canFallThrough(IBlockState state)
+    private static boolean canFallThrough(IBlockState state)
     {
         Block block = state.getBlock();
         Material material = state.getMaterial();
