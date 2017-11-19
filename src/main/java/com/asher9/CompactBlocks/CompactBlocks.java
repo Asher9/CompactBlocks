@@ -55,7 +55,7 @@ public class CompactBlocks {
     	File configDir = new File(event.getModConfigurationDirectory(), "CompactBlocks");
     	//Config.init(new File(configDir, "CompactBlocks.cfg"));
     	config = new Config(new File(configDir, "CompactBlocks.cfg"));
-    	//MinecraftForge.EVENT_BUS.register(new Configurations());
+    	//MinecraftForge.EVENT_BUS.register(new Config());
 		
 		CInit.initAll();
 		CModItems.register();
