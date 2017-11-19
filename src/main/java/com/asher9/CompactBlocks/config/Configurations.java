@@ -1,3 +1,4 @@
+/*
 package com.asher9.CompactBlocks.config;
 
 import java.io.File;
@@ -28,11 +29,14 @@ public class Configurations {
 	public static boolean activateCompressedDirt;
 	public static boolean activateCompressedSoulSand;
 	
-	
 	public static boolean creativeTabSearch;
 	public static boolean checkUpdates;
 	public static double blockHardness;
 	public static double blockResistance;
+
+	public static boolean oreGenEnderiumOre;
+	public static boolean oreGenNetherEnderiumOre;
+	public static boolean oreGenEndEnderiumOre;
 	
 	//Mod Update Check
 	public static String updateAddress;
@@ -71,6 +75,11 @@ public class Configurations {
 		//Update Settings
 		checkUpdates = config.get("UPDATE SETTINGS", "CheckForUpdates", true).getBoolean();
 		updateAddress = config.get("UPDATE SETTINGS", "Address for Update Checking", UpdateURL).getString();
+
+		//World Settings
+		oreGenEnderiumOre = config.get("WORLD SETTINGS", "Enderium Ore World Gen", true).getBoolean();
+		oreGenNetherEnderiumOre = config.get("WORLD SETTINGS", "Nether Enderium Ore Gen", true).getBoolean();
+		oreGenEndEnderiumOre = config.get("WORLD SETTINGS", "End Enderium Ore World Gen", true).getBoolean();
 		
 		//Settings
 		creativeTabSearch = config.get("SETTINGS", "Searchbar in Creative Tabs", false).getBoolean();
@@ -81,4 +90,4 @@ public class Configurations {
 			config.save();
 		}
 	}
-}
+}*/

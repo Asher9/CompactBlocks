@@ -1,9 +1,9 @@
 package com.asher9.CompactBlocks.init;
 
+import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.api.CMaterial;
 import com.asher9.CompactBlocks.api.CreativeTabCreator;
 import com.asher9.CompactBlocks.block.*;
-import com.asher9.CompactBlocks.config.Configurations;
 import com.asher9.CompactBlocks.item.*;
 import com.asher9.CompactBlocks.item.tools.*;
 
@@ -13,8 +13,8 @@ import net.minecraft.block.material.Material;
 public class CInit {
 	
 	private static final String Tool = "pickaxe";
-	private static final float Hardness = (float) Configurations.blockHardness;
-	private static final float Resistance = (float) Configurations.blockResistance;
+	private static final float Hardness = (float) CompactBlocks.config.cache.blockHardness;
+	private static final float Resistance = (float) CompactBlocks.config.cache.blockResistance;
 	private static final int ToolLevel = 0;
 	
 	public static void initAll() {

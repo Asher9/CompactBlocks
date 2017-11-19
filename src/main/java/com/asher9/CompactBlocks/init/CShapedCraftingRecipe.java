@@ -1,7 +1,7 @@
 package com.asher9.CompactBlocks.init;
 
+import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.api.EnumHandler;
-import com.asher9.CompactBlocks.config.Configurations;
 import com.asher9.CompactBlocks.util.Utils;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -16,25 +16,25 @@ public class CShapedCraftingRecipe {
 		Utils.getLogger().info("Loading Shaped Recipes...");
 	
 	//Compressed Blocks
-		if(Configurations.activateCompressedCobblestone){
+		if(CompactBlocks.config.cache.activateCompressedCobblestone){
 			GameRegistry.addRecipe(new ItemStack(CBlocks.compressedCobblestone), "###", "###", "###", '#', Blocks.COBBLESTONE);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.doublecompressedCobblestone), "###", "###", "###", '#', CBlocks.compressedCobblestone);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.triplecompressedCobblestone), "###", "###", "###", '#', CBlocks.doublecompressedCobblestone);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.quadruplecompressedCobblestone), "###", "###", "###", '#', CBlocks.triplecompressedCobblestone);  
 		}
-		if(Configurations.activateCompressedDirt){
+		if(CompactBlocks.config.cache.activateCompressedDirt){
 			GameRegistry.addRecipe(new ItemStack(CBlocks.compressedDirt), "###", "###", "###", '#', new ItemStack(Blocks.DIRT, 1, 0));
 			GameRegistry.addRecipe(new ItemStack(CBlocks.doublecompressedDirt), "###", "###", "###", '#', CBlocks.compressedDirt);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.triplecompressedDirt), "###", "###", "###", '#', CBlocks.doublecompressedDirt);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.quadruplecompressedDirt), "###", "###", "###", '#', CBlocks.triplecompressedDirt);
 		}
-		if(Configurations.activateCompressedSand){
+		if(CompactBlocks.config.cache.activateCompressedSand){
 			GameRegistry.addRecipe(new ItemStack(CBlocks.compressedSand), "###", "###", "###", '#', Blocks.SAND);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.doublecompressedSand),  "###", "###", "###", '#', CBlocks.compressedSand);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.triplecompressedSand), "###", "###", "###", '#', CBlocks.doublecompressedSand);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.quadruplecompressedSand), "###", "###", "###", '#', CBlocks.triplecompressedSand);
 		}
-		if(Configurations.activateCompressedGravel){
+		if(CompactBlocks.config.cache.activateCompressedGravel){
 			GameRegistry.addRecipe(new ItemStack(CBlocks.compressedGravel), "###", "###", "###", '#', Blocks.GRAVEL);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.doublecompressedGravel), "###", "###", "###", '#', CBlocks.compressedGravel);
 			GameRegistry.addRecipe(new ItemStack(CBlocks.triplecompressedGravel), "###", "###", "###", '#', CBlocks.doublecompressedGravel);
@@ -87,7 +87,7 @@ public class CShapedCraftingRecipe {
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedEmeraldBlock), "###", "###", "###", '#', CBlocks.compressedEmeraldBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedEmeraldBlock), "###", "###", "###", '#', CBlocks.doublecompressedEmeraldBlock);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedEmeraldBlock), "###", "###", "###", '#', CBlocks.triplecompressedEmeraldBlock);
-		if(Configurations.activateCompressedEndStone){
+		if(CompactBlocks.config.cache.activateCompressedEndStone){
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedEndStone), "###", "###", "###", '#', Blocks.END_STONE);
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedEndStone), "###", "###", "###", '#', CBlocks.compressedEndStone);
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedEndStone), "###", "###", "###", '#', CBlocks.doublecompressedEndStone);
@@ -125,7 +125,7 @@ public class CShapedCraftingRecipe {
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedNetherBrick), "###", "###", "###", '#', CBlocks.compressedNetherBrick);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedNetherBrick), "###", "###", "###", '#', CBlocks.doublecompressedNetherBrick);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedNetherBrick), "###", "###", "###", '#', CBlocks.triplecompressedNetherBrick);
-		if(Configurations.activateCompressedNetherrack){
+		if(CompactBlocks.config.cache.activateCompressedNetherrack){
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedNetherrack), "###", "###", "###", '#', Blocks.NETHERRACK);
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedNetherrack), "###", "###", "###", '#', CBlocks.compressedNetherrack);
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedNetherrack), "###", "###", "###", '#', CBlocks.doublecompressedNetherrack);
@@ -211,7 +211,7 @@ public class CShapedCraftingRecipe {
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedTNT),  "###", "###", "###", '#', CBlocks.compressedTNT);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedTNT), "###", "###", "###", '#', CBlocks.doublecompressedTNT);
 		GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedTNT), "###", "###", "###", '#', CBlocks.triplecompressedTNT);
-		if(Configurations.activateCompressedSoulSand){
+		if(CompactBlocks.config.cache.activateCompressedSoulSand){
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.compressedSoulSand), "###", "###", "###", '#', Blocks.SOUL_SAND);
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.doublecompressedSoulSand),  "###", "###", "###", '#', CBlocks.compressedSoulSand);
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.triplecompressedSoulSand), "###", "###", "###", '#', CBlocks.doublecompressedSoulSand);
@@ -378,16 +378,16 @@ public class CShapedCraftingRecipe {
 			GameRegistry.addShapedRecipe(new ItemStack(CBlocks.quadruplecompressedWoodLog, 1, i + 4), "###", "###", "###", '#', new ItemStack(CBlocks.triplecompressedWoodLog, 1, i + 4));
 	    }
 			
-		if(Configurations.activateCobblestonePickaxe){
+		if(CompactBlocks.config.cache.activateCobblestonePickaxe){
 			GameRegistry.addRecipe(new ItemStack(CItems.compressedCobblestonePickaxe), "###", " I ", " I ", '#', CBlocks.quadruplecompressedCobblestone, 'I', Items.STICK);	
 		}
-		if(Configurations.activateSandPickaxe){
+		if(CompactBlocks.config.cache.activateSandPickaxe){
 			GameRegistry.addRecipe(new ItemStack(CItems.compressedSandPickaxe), "###", " I ", " I ", '#', CBlocks.quadruplecompressedSand, 'I', Items.STICK);
 		}
-		if(Configurations.activateDirtPickaxe){
+		if(CompactBlocks.config.cache.activateDirtPickaxe){
 			GameRegistry.addRecipe(new ItemStack(CItems.compressedDirtPickaxe), "###", " I ", " I ", '#', CBlocks.quadruplecompressedDirt, 'I', Items.STICK);
 		}
-		if(Configurations.activateGravelPickaxe){
+		if(CompactBlocks.config.cache.activateGravelPickaxe){
 			GameRegistry.addRecipe(new ItemStack(CItems.compressedGravelPickaxe), "###", " I ",  " I ", '#', CBlocks.quadruplecompressedGravel, 'I', Items.STICK);
 		}
 	    

@@ -15,8 +15,6 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
-import javax.annotation.Nullable;
-
 public class WorldGen implements IWorldGenerator{
 
 	public WorldGenerator oreEnderium;
@@ -51,7 +49,6 @@ public class WorldGen implements IWorldGenerator{
 	        throw new IllegalArgumentException("Illegal Height Arguments for WorldGenerator");
 
 		int heightDiff = maxHeight - minHeight + 1;
-		//Predicate netherPredicate = BlockMatcher.forBlock(Blocks.NETHERRACK);
 		for (int i = 0; i < chancesToSpawn; i++){
 			int X = chunk_X * 16 + random.nextInt(16);
 			int Y = minHeight + random.nextInt(heightDiff);

@@ -44,9 +44,9 @@ public class BlockBreakable extends Block
         IBlockState iblockstate = blockAccess.getBlockState(pos.offset(side));
         Block block = iblockstate.getBlock();
 
-        if (this == CBlocks.compressedGlassBlock || this == CBlocks.doublecompressedGlassBlock || this == CBlocks.triplecompressedGlassBlock || this == CBlocks.quadruplecompressedGlassBlock 
-        		|| this == CBlocks.compressedIce || this == CBlocks.doublecompressedIce || this == CBlocks.triplecompressedIce || this == CBlocks.quadruplecompressedIce
-        		|| this == CBlocks.compressedColorGlass || this == CBlocks.doublecompressedColorGlass || this == CBlocks.triplecompressedColorGlass || this == CBlocks.quadruplecompressedColorGlass);
+        if (this == CBlocks.compressedGlassBlock || this == CBlocks.doublecompressedGlassBlock || this == CBlocks.triplecompressedGlassBlock || this == CBlocks.quadruplecompressedGlassBlock
+                || this == CBlocks.compressedIce || this == CBlocks.doublecompressedIce || this == CBlocks.triplecompressedIce || this == CBlocks.quadruplecompressedIce
+                || this == CBlocks.compressedColorGlass || this == CBlocks.doublecompressedColorGlass || this == CBlocks.triplecompressedColorGlass || this == CBlocks.quadruplecompressedColorGlass);
         {
             if (blockState != iblockstate)
             {

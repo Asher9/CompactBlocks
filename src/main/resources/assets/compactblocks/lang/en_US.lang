@@ -504,3 +504,29 @@ item.dustEnderium.name=Enderium Dust
 
 //Entities
 entity.Human.name=Human
+
+//Config Gui
+config.oreGenEnderiumOre=Enderium Ore World Gen
+config.oreGenNetherEnderiumOre=Nether Enderium Ore Gen
+config.oreGenEndEnderiumOre=End Enderium Ore World Gen
+config.worldSettings=World Settings
+config.recipeCobblestonePickaxe=Activate Cobblestone Pickaxe
+config.recipeDirtPickaxe=Activate Dirt Pickaxe
+config.recipeSandPickaxe=Activate Sand Pickaxe
+config.recipeGravelPickaxe=Activate Gravel Pickaxe
+config.recipes=Recipes
+config.checkForUpdates=Check for Updates
+config.updateAddress=Address for Update checking
+config.updateSettings=Update Settings
+config.activateCompressedCobblestone=Activate Compressed Cobblestone
+config.activateCompressedGravel=Activate Compressed Gravel
+config.activateCompressedSand=Activate Compressed Sand
+config.activateCompressedNetherrack=Activate Compressed Netherrack
+config.activateCompressedEndStone=Activate Compressed EndStone
+config.activateCompressedDirt=Activate Compressed Dirt
+config.activateCompressedSoulSand=Activate Compressed SoulSand
+config.blockSettings=Block Settings
+config.creativeTabSearch=Searchbar in Creative Tabs
+config.blockHardness=Hardness of the Blocks
+config.blockResistance=Resistance of the Blocks
+config.generalSettings=General Settings
