@@ -76,8 +76,6 @@ public class Config {
 
         //Update Settings
         public String updateAddress;
-        public String updateURL = "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.10.2/ModVersion.txt";
-
     }
 
     private final Configuration config;
@@ -126,7 +124,7 @@ public class Config {
         cache.activateCompressedSoulSand = config.get(blockList.getQualifiedName(), "activateCompressedSoulSand", true).setLanguageKey("config.activateCompressedSoulSand").getBoolean();
 
         cache.checkUpdates = config.get(updateList.getQualifiedName(), "checkUpdates", true).setLanguageKey("config.checkForUpdates").getBoolean();
-        cache.updateAddress = config.get(updateList.getQualifiedName(), "updateAddress", cache.updateURL).setLanguageKey("config.updateAddress").getString();
+        cache.updateAddress = config.get(updateList.getQualifiedName(), "updateAddress", "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.10.2/ModVersion.txt").setLanguageKey("config.updateAddress").getString();
 
         cache.creativeTabSearch = config.get(settingsList.getQualifiedName(), "creativeTabSearch", true).setLanguageKey("config.creativeTabSearch").getBoolean();
         cache.blockHardness = config.get(settingsList.getQualifiedName(), "blockHardness", 3.0F).setLanguageKey("config.blockHardness").getDouble();
