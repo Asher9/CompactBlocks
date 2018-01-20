@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/triplecompressedMelon_top",
+		"down": "compactblocks:blocks/triplecompressedMelon_top",
+        "north": "compactblocks:blocks/triplecompressedMelon_side",
+		"south": "compactblocks:blocks/triplecompressedMelon_side",
+		"west": "compactblocks:blocks/triplecompressedMelon_side",
+		"east": "compactblocks:blocks/triplecompressedMelon_side"
+    }
+}

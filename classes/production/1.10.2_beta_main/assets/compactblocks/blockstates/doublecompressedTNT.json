@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "compactblocks:doublecompressedTNT" },
+            { "model": "compactblocks:doublecompressedTNT", "y": 90 },
+            { "model": "compactblocks:doublecompressedTNT", "y": 180 },
+            { "model": "compactblocks:doublecompressedTNT", "y": 270 }
+        ],
+		"explode=true": [
+			{ "model": "doublecompactblocks:compressedTNT" },
+            { "model": "doublecompactblocks:compressedTNT", "y": 90 },
+            { "model": "doublecompactblocks:compressedTNT", "y": 180 },
+            { "model": "doublecompactblocks:compressedTNT", "y": 270 }
+		]
+    }
+}

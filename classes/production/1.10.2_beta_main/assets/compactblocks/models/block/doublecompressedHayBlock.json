@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/doublecompressedHayBlock_top",
+		"down": "compactblocks:blocks/doublecompressedHayBlock_top",
+        "north": "compactblocks:blocks/doublecompressedHayBlock_side",
+		"south": "compactblocks:blocks/doublecompressedHayBlock_side",
+		"west": "compactblocks:blocks/doublecompressedHayBlock_side",
+		"east": "compactblocks:blocks/doublecompressedHayBlock_side"
+    }
+}

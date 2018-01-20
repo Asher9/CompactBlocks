@@ -1,0 +1,12 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"particle": "compactblocks:blocks/triplecompressedCraftingTable_front",
+		"up": "compactblocks:blocks/triplecompressedCraftingTable_top",
+		"down": "compactblocks:blocks/triplecompressedWoodPlanksOak",
+        "north": "compactblocks:blocks/triplecompressedCraftingTable_front",
+		"south": "compactblocks:blocks/triplecompressedCraftingTable_side",
+		"west": "compactblocks:blocks/triplecompressedCraftingTable_front",
+		"east": "compactblocks:blocks/triplecompressedCraftingTable_side"
+    }
+}

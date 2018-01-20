@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/doublecompressedSpruceLog_top",
+		"down": "compactblocks:blocks/doublecompressedSpruceLog_top",
+        "north": "compactblocks:blocks/doublecompressedSpruceLog_side",
+		"south": "compactblocks:blocks/doublecompressedSpruceLog_side",
+		"west": "compactblocks:blocks/doublecompressedSpruceLog_side",
+		"east": "compactblocks:blocks/doublecompressedSpruceLog_side"
+    }
+}

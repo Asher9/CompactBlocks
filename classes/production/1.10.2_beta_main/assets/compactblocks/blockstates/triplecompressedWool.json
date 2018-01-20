@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "type=white": { "model": "compactblocks:triplecompressedWoolWhite" },
+		"type=orange": { "model": "compactblocks:triplecompressedWoolOrange" },
+		"type=magenta": { "model": "compactblocks:triplecompressedWoolMagenta" },
+		"type=lightblue": { "model": "compactblocks:triplecompressedWoolLightBlue" },
+		"type=yellow": { "model": "compactblocks:triplecompressedWoolYellow" },
+		"type=lime": { "model": "compactblocks:triplecompressedWoolLime" },
+		"type=pink": { "model": "compactblocks:triplecompressedWoolPink" },
+		"type=gray": { "model": "compactblocks:triplecompressedWoolGray" },
+		"type=lightgray": { "model": "compactblocks:triplecompressedWoolLightGray" },
+		"type=cyan": { "model": "compactblocks:triplecompressedWoolCyan" },
+		"type=purple": { "model": "compactblocks:triplecompressedWoolPurple" },
+		"type=blue": { "model": "compactblocks:triplecompressedWoolBlue" },
+		"type=brown": { "model": "compactblocks:triplecompressedWoolBrown" },
+		"type=green": { "model": "compactblocks:triplecompressedWoolGreen" },
+		"type=red": { "model": "compactblocks:triplecompressedWoolRed" },
+		"type=black": { "model": "compactblocks:triplecompressedWoolBlack" }
+    }
+}

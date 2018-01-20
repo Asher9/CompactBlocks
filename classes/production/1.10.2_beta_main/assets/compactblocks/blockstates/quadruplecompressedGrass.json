@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "normal": [
+			{ "model": "compactblocks:quadruplecompressedGrass" },
+			{ "model": "compactblocks:quadruplecompressedGrass", "y": 90 },
+			{ "model": "compactblocks:quadruplecompressedGrass", "y": 180 },
+			{ "model": "compactblocks:quadruplecompressedGrass", "y": 270}
+		]
+    }
+}

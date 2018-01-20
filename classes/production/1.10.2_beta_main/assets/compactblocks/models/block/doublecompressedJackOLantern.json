@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/doublecompressedPumpkin_top",
+		"down": "compactblocks:blocks/doublecompressedPumpkin_top",
+        "north": "compactblocks:blocks/doublecompressedPumpkin_faceOn",
+		"south": "compactblocks:blocks/doublecompressedPumpkin_side",
+		"west": "compactblocks:blocks/doublecompressedPumpkin_side",
+		"east": "compactblocks:blocks/doublecompressedPumpkin_side"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "type=white": { "model": "compactblocks:quadruplecompressedColorGlassWhite" },
+		"type=orange": { "model": "compactblocks:quadruplecompressedColorGlassOrange" },
+		"type=magenta": { "model": "compactblocks:quadruplecompressedColorGlassMagenta" },
+		"type=lightblue": { "model": "compactblocks:quadruplecompressedColorGlassLightBlue" },
+		"type=yellow": { "model": "compactblocks:quadruplecompressedColorGlassYellow" },
+		"type=lime": { "model": "compactblocks:quadruplecompressedColorGlassLime" },
+		"type=pink": { "model": "compactblocks:quadruplecompressedColorGlassPink" },
+		"type=gray": { "model": "compactblocks:quadruplecompressedColorGlassGray" },
+		"type=lightgray": { "model": "compactblocks:quadruplecompressedColorGlassLightGray" },
+		"type=cyan": { "model": "compactblocks:quadruplecompressedColorGlassCyan" },
+		"type=purple": { "model": "compactblocks:quadruplecompressedColorGlassPurple" },
+		"type=blue": { "model": "compactblocks:quadruplecompressedColorGlassBlue" },
+		"type=brown": { "model": "compactblocks:quadruplecompressedColorGlassBrown" },
+		"type=green": { "model": "compactblocks:quadruplecompressedColorGlassGreen" },
+		"type=red": { "model": "compactblocks:quadruplecompressedColorGlassRed" },
+		"type=black": { "model": "compactblocks:quadruplecompressedColorGlassBlack" }
+    }
+}
