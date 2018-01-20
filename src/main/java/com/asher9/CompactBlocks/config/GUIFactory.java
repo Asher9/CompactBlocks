@@ -1,12 +1,11 @@
 package com.asher9.CompactBlocks.config;
 
-import java.util.Set;
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.fml.client.IModGuiFactory;
 
 import javax.annotation.Nullable;
+import java.util.Set;
 
 public class GUIFactory implements IModGuiFactory{
 
