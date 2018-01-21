@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.10.2_beta.iml" filepath="$PROJECT_DIR$/.idea/modules/1.10.2_beta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1.10.2_beta.iml" filepath="$PROJECT_DIR$/1.10.2_beta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.10.2_beta_api.iml" filepath="$PROJECT_DIR$/.idea/modules/1.10.2_beta_api.iml" group="1.10.2_beta" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.10.2_beta_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1.10.2_beta_main.iml" group="1.10.2_beta" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1.10.2_beta_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1.10.2_beta_test.iml" group="1.10.2_beta" />
     </modules>
   </component>
 </project>
