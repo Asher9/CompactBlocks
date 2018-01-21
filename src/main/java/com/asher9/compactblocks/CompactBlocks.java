@@ -1,11 +1,14 @@
 package com.asher9.compactblocks;
 
 import java.io.File;
+import java.util.List;
 
 import com.asher9.compactblocks.api.Events;
 import com.asher9.compactblocks.config.Config;
 import com.asher9.compactblocks.proxies.CommonProxy;
 import com.asher9.compactblocks.utils.UpdateChecker;
+import com.google.common.collect.Lists;
+import net.minecraft.block.Block;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
