@@ -4,8 +4,10 @@ import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
 
+import javax.xml.soap.Text;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Scanner;
@@ -40,7 +42,7 @@ public class UpdateChecker {
             }
             else {
                 show = true;
-                updateStatus = TextFormatting.RED + "[" + Reference.getMODNAME() + "] is out of date! Your Version: " + currentVersion + " Latest Version: " + newestVersion;
+                updateStatus = TextFormatting.RED + "[" + Reference.getMODNAME() + "] is out of date! Latest Version: " + newestVersion;
                 ModLogger.getLogger().info("is out of date! Your Version: " + currentVersion + " Latest Version: " + newestVersion);
             }
         }
@@ -53,13 +55,12 @@ public class UpdateChecker {
 
     public static void tick() {
         Minecraft mc = Minecraft.getMinecraft();
-        EntityPlayer player;
         if (!mc.inGameHasFocus) {
             return;
         }
         synchronized (updateStatus) {
             if (a == 0) {
-                mc.player.sendChatMessage(updateStatus);
+                mc.player.sendMessage(new TextComponentString(updateStatus));
                 a++;
             }
         }
