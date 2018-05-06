@@ -4,8 +4,11 @@ import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.Scanner;
 
 public class UpdateChecker {
 
@@ -56,9 +59,27 @@ public class UpdateChecker {
         }
         synchronized (updateStatus) {
             if (a == 0) {
-
+                mc.player.sendChatMessage(updateStatus);
+                a++;
             }
         }
     }
 
+    private static void getNewestVersion() {
+
+        try {
+            URL url = new URL(UPDATE_URL);
+            Scanner s =new Scanner(url.openStream());
+            newestVersion = s.nextLine();
+
+            currentVersionInt = Integer.parseInt(currentVersion.substring(1, 4).replaceAll("[\\D]", ""));
+            newestVersionInt = Integer.parseInt(currentVersion.substring(1, 4).replaceAll("[\\D]", ""));
+
+            s.close();
+        }
+        catch (IOException e) {
+            e.getStackTrace();
+            ModLogger.getLogger().error("Could not connect to determine if mod was up to date!");
+        }
+    }
 }
