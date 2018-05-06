@@ -37,7 +37,7 @@ public class UpdateChecker {
             }
             else if (currentVersionInt > newestVersionInt) {
                 show = true;
-                updateStatus= TextFormatting.YELLOW + "[" + Reference.getMODNAME() + "] your Version " + Reference.getVERSION() + " is higher than the latest Version " + newestVersion;
+                updateStatus= TextFormatting.YELLOW + "[" + Reference.getMODNAME() + "] your Version " + Reference.getVERSION() + " is higher than the latest Version";
                 ModLogger.getLogger().info("your Version " + Reference.getVERSION() + " is higher than your latest Version " + newestVersion);
             }
             else {
@@ -74,7 +74,7 @@ public class UpdateChecker {
             newestVersion = s.nextLine();
 
             currentVersionInt = Integer.parseInt(currentVersion.substring(1, 4).replaceAll("[\\D]", ""));
-            newestVersionInt = Integer.parseInt(currentVersion.substring(1, 4).replaceAll("[\\D]", ""));
+            newestVersionInt = Integer.parseInt(newestVersion.substring(1, 4).replaceAll("[\\D]", ""));
 
             s.close();
         }

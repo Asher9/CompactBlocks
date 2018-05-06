@@ -1,5 +1,6 @@
 package com.asher9.CompactBlocks.config;
 
+import com.asher9.CompactBlocks.Reference;
 import net.minecraftforge.common.config.ConfigCategory;
 import net.minecraftforge.common.config.Configuration;
 
@@ -83,7 +84,7 @@ public class ModConfig {
     public void syncConfig() {
 
         cache.checkUpdates = config.get(updateList.getQualifiedName(), "checkUpdates", true).setLanguageKey("config.checkUpdates").setRequiresWorldRestart(true).getBoolean();
-        cache.updateAddress = config.get(updateList.getQualifiedName(), "updateAddress", "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.12.2/ModVersion.txt").setLanguageKey("config.updateAddress").setRequiresMcRestart(true).getString();
+        cache.updateAddress = config.get(updateList.getQualifiedName(), "updateAddress", Reference.getUpdateURL()).setLanguageKey("config.updateAddress").setRequiresMcRestart(true).getString();
 
         if (config.hasChanged())
             config.save();
