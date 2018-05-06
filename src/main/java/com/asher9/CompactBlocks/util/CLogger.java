@@ -4,7 +4,7 @@ import com.asher9.CompactBlocks.Reference;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class ModLogger {
+public class CLogger {
 
     public static Logger getLogger() {
         if(logger == null) {

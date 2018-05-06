@@ -8,7 +8,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ModConfig {
+public class CConfig {
 
     public class ConfigSection {
         public final ConfigSection parent;
@@ -71,7 +71,7 @@ public class ModConfig {
     private final ConfigSection blockList = new ConfigSection(sections, "blockSettings", "config.blockSettings");
     private final ConfigSection settingsList = new ConfigSection(sections, "generalSettings", "config.generalSettings");
 
-    public ModConfig(File file) {
+    public CConfig(File file) {
         config = new Configuration(file);
         cache = new ConfigCache();
 

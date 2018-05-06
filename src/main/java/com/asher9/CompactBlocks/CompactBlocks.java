@@ -1,7 +1,7 @@
 package com.asher9.CompactBlocks;
 
 import com.asher9.CompactBlocks.api.Events;
-import com.asher9.CompactBlocks.config.ModConfig;
+import com.asher9.CompactBlocks.config.CConfig;
 import com.asher9.CompactBlocks.proxies.CommonProxy;
 
 import com.asher9.CompactBlocks.util.UpdateChecker;
@@ -23,7 +23,7 @@ import java.io.File;
 
 public class CompactBlocks {
 
-    public static ModConfig config;
+    public static CConfig config;
 
     @SidedProxy(clientSide = Reference.ClientSide, serverSide = Reference.ServerSide)
     private static CommonProxy proxy;
@@ -39,7 +39,7 @@ public class CompactBlocks {
         data.authorList.add(TextFormatting.BLUE + "Asher_9");
 
         File configDir = new File(event.getModConfigurationDirectory(), "CompactBlocks");
-        config = new ModConfig(new File(configDir, "CompactBlocks.cfg"));
+        config = new CConfig(new File(configDir, "CompactBlocks.cfg"));
 
     }
 
