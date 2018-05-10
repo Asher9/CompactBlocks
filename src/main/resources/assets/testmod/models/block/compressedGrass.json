@@ -1,0 +1,10 @@
+{
+    "parent": "compactblocks:block/grass",
+    "textures": {
+		"particle": "compactblocks:blocks/compressedDirt",
+        "bottom": "compactblocks:blocks/compressedDirt",
+        "top": "compactblocks:blocks/compressedGrass_top",
+        "side": "compactblocks:blocks/compressedGrass_side",
+        "overlay": "compactblocks:blocks/grass_side_overlay"
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "type=oak": { "model": "compactblocks:doublecompressedOakLog" },
+		"type=spruce": { "model": "compactblocks:doublecompressedSpruceLog" },
+		"type=birch": { "model": "compactblocks:doublecompressedBirchLog" },
+		"type=jungle": { "model": "compactblocks:doublecompressedJungleLog" },
+		"type=acacia": { "model": "compactblocks:doublecompressedAcaciaLog" },
+		"type=darkoak": { "model": "compactblocks:doublecompressedDarkOakLog" }
+    }
+}

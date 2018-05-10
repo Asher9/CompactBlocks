@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/triplecompressedAcaciaLog_top",
+		"down": "compactblocks:blocks/triplecompressedAcaciaLog_top",
+        "north": "compactblocks:blocks/triplecompressedAcaciaLog_side",
+		"south": "compactblocks:blocks/triplecompressedAcaciaLog_side",
+		"west": "compactblocks:blocks/triplecompressedAcaciaLog_side",
+		"east": "compactblocks:blocks/triplecompressedAcaciaLog_side"
+    }
+}

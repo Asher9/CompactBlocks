@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/doublecompressedWoodPlanksOak",
+		"down": "compactblocks:blocks/doublecompressedWoodPlanksOak",
+        "north": "compactblocks:blocks/doublecompressedBookshelf",
+		"south": "compactblocks:blocks/doublecompressedBookshelf",
+		"west": "compactblocks:blocks/doublecompressedBookshelf",
+		"east": "compactblocks:blocks/doublecompressedBookshelf"
+    }
+}
