@@ -5,7 +5,6 @@ import com.asher9.CompactBlocks.init.CBlocks;
 import com.asher9.CompactBlocks.init.CItems;
 import com.asher9.CompactBlocks.util.CLogger;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class CreativeTabCreator {
@@ -14,7 +13,7 @@ public class CreativeTabCreator {
 
         private ItemStack stack;
 
-        public CustomCreativeTAb(String label) {
+        public CustomCreativeTab(String label) {
             super(label);
             if (CompactBlocks.config.cache.creativeTabSearch) {
                 setBackgroundImageName("item_search.png");

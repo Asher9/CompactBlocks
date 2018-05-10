@@ -56,6 +56,8 @@ public class CConfig {
 
         //General Settings
         public boolean creativeTabSearch;
+        public double blockHardness;
+        public double blockResistance;
 
         //Update Settings
         public String updateAddress;
@@ -88,6 +90,8 @@ public class CConfig {
         cache.updateAddress = config.get(updateList.getQualifiedName(), "updateAddress", Reference.getUpdateURL()).setLanguageKey("config.updateAddress").setRequiresMcRestart(true).getString();
 
         cache.creativeTabSearch = config.get(settingsList.getQualifiedName(), "creativeTabSearch", false).setLanguageKey("config.creativeTabSearch").setRequiresMcRestart(true).getBoolean();
+        cache.blockHardness = config.get(settingsList.getQualifiedName(), "blockHardness", 3.0F).setLanguageKey("config.blockHardness").setRequiresMcRestart(true).getDouble();
+        cache.blockResistance = config.get(settingsList.getQualifiedName(), "blockResistance", 20.0F).setLanguageKey("config.blockResistance").setRequiresMcRestart(true).getDouble();
 
         if (config.hasChanged())
             config.save();

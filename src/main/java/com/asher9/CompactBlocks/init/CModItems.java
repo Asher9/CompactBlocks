@@ -3,14 +3,12 @@ package com.asher9.CompactBlocks.init;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.api.CreativeTabCreator;
 import com.asher9.CompactBlocks.util.CLogger;
-import com.asher9.CompactBlocks.util.Utils;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
-import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CModItems {
 	
