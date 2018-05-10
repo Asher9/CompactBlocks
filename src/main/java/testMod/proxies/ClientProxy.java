@@ -10,7 +10,7 @@ public class ClientProxy extends CommonProxy{
 
     @Override
     public void registerRenderers() {
-        ModelLoader.setCustomModelResourceLocation(testMod.compressedPickaxe, 0, new ModelResourceLocation(new ResourceLocation("testmod:compressedCobblestonePickaxe"), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(testMod.compressedCobblestonePickaxe, 0, new ModelResourceLocation(new ResourceLocation("testmod:compressedCobblestonePickaxe"), "inventory"));
         ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(testMod.compressedSand), 0, new ModelResourceLocation(new ResourceLocation("testmod:compressedSand"),"inventory"));
     }
 }

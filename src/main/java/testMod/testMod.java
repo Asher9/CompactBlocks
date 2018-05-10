@@ -2,9 +2,12 @@ package testMod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -26,7 +29,7 @@ public class testMod {
 
     public static CreativeTabs testModCTab = new testModTab();
 
-    public static final Item compressedPickaxe = new ItemBase("compressedPickaxe");
+    public static final Item compressedCobblestonePickaxe = new ItemBase("compressedCobblestonePickaxe");
     public static final Block compressedSand = new baseBlock(Material.IRON, "compressedSand");
 
     @SidedProxy(clientSide = "testMod.proxies.ClientProxy", serverSide = "testMod.proxies.CommonProxy")
@@ -34,7 +37,7 @@ public class testMod {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        ForgeRegistries.ITEMS.register(compressedPickaxe);
+        ForgeRegistries.ITEMS.register(compressedCobblestonePickaxe);
         ForgeRegistries.BLOCKS.register(compressedSand);
         ForgeRegistries.ITEMS.register(new ItemBlock(compressedSand).setRegistryName(compressedSand.getRegistryName()));
         proxy.registerRenderers();
