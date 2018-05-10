@@ -21,7 +21,7 @@ public class ToolEnderiumAxe extends ItemTool {
     public ToolEnderiumAxe(ToolMaterial material, String unlocalizedName) {
         super(material, EFFECTIVE_ON);
         this.setUnlocalizedName(unlocalizedName);
-        this.setRegistryName(new ResourceLocation(Reference.getModid(), unlocalizedName));
+        this.setRegistryName(new ResourceLocation(Reference.getMODID(), unlocalizedName));
     }
     
     @Override

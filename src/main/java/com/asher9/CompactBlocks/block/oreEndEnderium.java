@@ -38,7 +38,7 @@ public class oreEndEnderium extends Block {
 
 	@Override
 	public int quantityDroppedWithBonus(int fortune, Random random) {
-		return MathHelper.clamp_int(this.quantityDropped(random) + random.nextInt(fortune + 1), this.least_quantity,
+		return MathHelper.clamp(this.quantityDropped(random) + random.nextInt(fortune + 1), this.least_quantity,
 				this.most_quantity);
 	}
 

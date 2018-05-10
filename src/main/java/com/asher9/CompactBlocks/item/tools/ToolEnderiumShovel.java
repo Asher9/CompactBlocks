@@ -12,7 +12,7 @@ public class ToolEnderiumShovel extends ItemSpade {
 	public ToolEnderiumShovel(ToolMaterial material, String unlocalizedName) {
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
-		this.setRegistryName(new ResourceLocation(Reference.getModid(), unlocalizedName));
+		this.setRegistryName(new ResourceLocation(Reference.getMODID(), unlocalizedName));
 
 	}
 	

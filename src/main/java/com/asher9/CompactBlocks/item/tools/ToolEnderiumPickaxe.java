@@ -12,7 +12,7 @@ public class ToolEnderiumPickaxe extends ItemPickaxe {
     public ToolEnderiumPickaxe(ToolMaterial material, String unlocalizedName) {
 		super(material);
 		this.setUnlocalizedName(unlocalizedName);
-		this.setRegistryName(new ResourceLocation(Reference.getModid(), unlocalizedName));
+		this.setRegistryName(new ResourceLocation(Reference.getMODID(), unlocalizedName));
 	}
     
     @Override

@@ -56,5 +56,7 @@ public class CreativeTabCreator {
         tabcompressedClayBlocks.setTabIconItemStack(new ItemStack(CBlocks.compressedHardenedClay));
         tabcompressedWoolBlocks.setTabIconItemStack(new ItemStack(CBlocks.compressedWool));
         tabcompressedItems.setTabIconItemStack(new ItemStack(CItems.ingotEnderium));
+
+        CLogger.getLogger().info("Ceative Tabs loaded");
     }
 }

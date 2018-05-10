@@ -1,6 +1,7 @@
 package com.asher9.CompactBlocks.init;
 
 import com.asher9.CompactBlocks.api.EnumHandler;
+import com.asher9.CompactBlocks.util.CLogger;
 import com.asher9.CompactBlocks.util.Utils;
 
 import net.minecraft.init.Blocks;
@@ -12,7 +13,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class CShapelessCraftingRecipe {
 	 
 public static void ShapelessCraftingRecipe() {
-	Utils.getLogger().info("Loading Shapeless Recipes...");
+	CLogger.getLogger().info("Loading Shapeless Recipes...");
 	
 	//Compressed Blocks
 	GameRegistry.addShapelessRecipe(new ItemStack(Blocks.COBBLESTONE, 9), new ItemStack(CBlocks.compressedCobblestone)); 
@@ -380,7 +381,7 @@ public static void ShapelessCraftingRecipe() {
 		GameRegistry.addShapelessRecipe(new ItemStack(CBlocks.triplecompressedWoodLog, 9, i + 4), new ItemStack(CBlocks.quadruplecompressedWoodLog, 1, i + 4));
     }
 	
-	Utils.getLogger().info("Shapeless Recipes loaded");
+	CLogger.getLogger().info("Shapeless Recipes loaded");
 }
 }
 	
