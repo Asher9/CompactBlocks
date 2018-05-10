@@ -3,7 +3,7 @@ package com.asher9.CompactBlocks.init;
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.ItemBlocks.ItemBlockMeta;
 import com.asher9.CompactBlocks.api.EnumHandler;
-import com.asher9.CompactBlocks.util.Utils;
+import com.asher9.CompactBlocks.util.CLogger;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
 
 public class CModBlocks {
 	
@@ -678,28 +678,28 @@ public class CModBlocks {
 			registerRender(CBlocks.quadruplecompressedWoodLog, i, "quadruplecompressed" + EnumHandler.WoodTypes.values()[i].getName() + "Log");
 		}
 	}
-	
+
 	private static void registerBlock(Block block) {
-		GameRegistry.register(block);
-		GameRegistry.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
-		Utils.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
+		ForgeRegistries.BLOCKS.register(block);
+		ForgeRegistries.ITEMS.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
+		CLogger.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
 	}
 	
 	private static void registerBlock(Block block, ItemBlock itemBlock) {
-		GameRegistry.register(block);
-		GameRegistry.register(itemBlock.setRegistryName(block.getRegistryName()));
-		Utils.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
+        ForgeRegistries.BLOCKS.register(block);
+		ForgeRegistries.ITEMS.register(itemBlock.setRegistryName(block.getRegistryName()));
+		CLogger.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
 	}
 	
 	private static void registerRender(Block block) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(Reference.getModid(), block.getUnlocalizedName().substring(5)), "inventory"));
-		Utils.getLogger().info(new ResourceLocation(Reference.getModid(), block.getUnlocalizedName().substring(5)));
-		Utils.getLogger().info("Registered Render for: " + block.getUnlocalizedName().substring(5));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(Reference.getMODID(), block.getUnlocalizedName().substring(5)), "inventory"));
+		CLogger.getLogger().info(new ResourceLocation(Reference.getMODID(), block.getUnlocalizedName().substring(5)));
+		CLogger.getLogger().info("Registered Render for: " + block.getUnlocalizedName().substring(5));
 	}
 
 	private static void registerRender(Block block, int meta, String fileName) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(Reference.getModid(), fileName), "inventory"));
-		Utils.getLogger().info("Registered Render for: " + block.getUnlocalizedName().substring(5));
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(Reference.getMODID(), fileName), "inventory"));
+		CLogger.getLogger().info("Registered Render for: " + block.getUnlocalizedName().substring(5));
 	}
 	
 }

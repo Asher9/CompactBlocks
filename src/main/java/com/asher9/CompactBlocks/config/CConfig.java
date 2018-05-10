@@ -55,6 +55,7 @@ public class CConfig {
         //Block Settings
 
         //General Settings
+        public boolean creativeTabSearch;
 
         //Update Settings
         public String updateAddress;
@@ -85,6 +86,8 @@ public class CConfig {
 
         cache.checkUpdates = config.get(updateList.getQualifiedName(), "checkUpdates", true).setLanguageKey("config.checkUpdates").setRequiresWorldRestart(true).getBoolean();
         cache.updateAddress = config.get(updateList.getQualifiedName(), "updateAddress", Reference.getUpdateURL()).setLanguageKey("config.updateAddress").setRequiresMcRestart(true).getString();
+
+        cache.creativeTabSearch = config.get(settingsList.getQualifiedName(), "creativeTabSearch", false).setLanguageKey("config.creativeTabSearch").setRequiresMcRestart(true).getBoolean();
 
         if (config.hasChanged())
             config.save();
