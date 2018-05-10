@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":[
+        "AAA",
+        " I ",
+        " I "
+    ],
+    "key": {
+        "A": {
+            "item": "testMod:compressedSand"
+        },
+        "i": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "testMod:compressedPickaxe",
+        "data": 0
+    }
+}
