@@ -17,9 +17,10 @@ import testMod.proxies.CommonProxy;
 import testMod.util.testModTab;
 
 @Mod(modid = testMod.MODID, name = testMod.MODNAME, version = testMod.VERSION)
+
 public class testMod {
 
-    public static final String MODID = "testMod";
+    public static final String MODID = "testmod";
     public static final String MODNAME = "Test Mod";
     public static final String VERSION = "v0.1_1.12.2";
 

@@ -12,12 +12,7 @@ public class testModTab extends CreativeTabs {
     }
 
     @Override
-    public ItemStack getIconItemStack() {
+    public ItemStack getTabIconItem() {
         return new ItemStack(testMod.compressedPickaxe);
-    }
-
-    @Override
-    public Item getTabIconItem() {
-        return new Item();
     }
 }
