@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/quadruplecompressedJungleLog_top",
+		"down": "compactblocks:blocks/quadruplecompressedJungleLog_top",
+        "north": "compactblocks:blocks/quadruplecompressedJungleLog_side",
+		"south": "compactblocks:blocks/quadruplecompressedJungleLog_side",
+		"west": "compactblocks:blocks/quadruplecompressedJungleLog_side",
+		"east": "compactblocks:blocks/quadruplecompressedJungleLog_side"
+    }
+}

@@ -5,10 +5,10 @@ import com.asher9.CompactBlocks.api.CMaterial;
 import com.asher9.CompactBlocks.api.CreativeTabCreator;
 import com.asher9.CompactBlocks.block.*;
 import com.asher9.CompactBlocks.item.*;
-import com.asher9.CompactBlocks.item.ToolCompCobblestonePickaxe;
-import com.asher9.CompactBlocks.item.ToolCompDirtPickaxe;
-import com.asher9.CompactBlocks.item.ToolCompGravelPickaxe;
-import com.asher9.CompactBlocks.item.ToolCompSandPickaxe;
+import com.asher9.CompactBlocks.item.tools.ToolCompCobblestonePickaxe;
+import com.asher9.CompactBlocks.item.tools.ToolCompDirtPickaxe;
+import com.asher9.CompactBlocks.item.tools.ToolCompGravelPickaxe;
+import com.asher9.CompactBlocks.item.tools.ToolCompSandPickaxe;
 import com.asher9.CompactBlocks.item.tools.*;
 
 import net.minecraft.block.SoundType;

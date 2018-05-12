@@ -1,4 +1,4 @@
-package com.asher9.CompactBlocks.item;
+package com.asher9.CompactBlocks.item.tools;
 
 import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.init.CBlocks;

@@ -25,7 +25,7 @@ public class compressedCactus extends Block {
 		super(material);
 		
 		this.setUnlocalizedName(unlocalizedName);
-		this.setRegistryName(new ResourceLocation(Reference.getModid(), unlocalizedName));
+		this.setRegistryName(new ResourceLocation(Reference.getMODID(), unlocalizedName));
 		this.setHardness(hardness);
 		this.setResistance(resistance);
 		this.setLightLevel(lightLevel);

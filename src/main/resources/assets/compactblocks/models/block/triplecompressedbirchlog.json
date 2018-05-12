@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/triplecompressedBirchLog_top",
+		"down": "compactblocks:blocks/triplecompressedBirchLog_top",
+        "north": "compactblocks:blocks/triplecompressedBirchLog_side",
+		"south": "compactblocks:blocks/triplecompressedBirchLog_side",
+		"west": "compactblocks:blocks/triplecompressedBirchLog_side",
+		"east": "compactblocks:blocks/triplecompressedBirchLog_side"
+    }
+}
