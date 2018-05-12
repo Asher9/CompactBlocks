@@ -1,4 +1,8 @@
-//Bl�cke
+language.name=Deutsch
+language.region=Deutschland
+language.code=en_de
+
+//Blöcke
 tile.compressedCobblestone.name=Komprimierter Bruchstein
 tile.doublecompressedCobblestone.name=Doppelt Komprimierter Bruchstein
 tile.triplecompressedCobblestone.name=Dreifach Komprimierter Bruchstein
