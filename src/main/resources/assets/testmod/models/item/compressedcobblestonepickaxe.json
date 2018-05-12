@@ -1,6 +1,6 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "testmod:items/compressedcobblestonepickaxe"
+		"layer0": "testmod:items/compressedCobblestonePickaxe"
 	}
 }

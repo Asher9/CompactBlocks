@@ -1,5 +1,5 @@
 {
-    "parent":"testmod:block/compressedsand",
+    "parent":"testmod:block/compressedSand",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],
