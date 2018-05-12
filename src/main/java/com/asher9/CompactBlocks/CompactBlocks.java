@@ -1,10 +1,14 @@
 package com.asher9.CompactBlocks;
 
+import com.asher9.CompactBlocks.api.CreativeTabCreator;
 import com.asher9.CompactBlocks.api.Events;
+import com.asher9.CompactBlocks.api.OreDictHandler;
 import com.asher9.CompactBlocks.config.CConfig;
+import com.asher9.CompactBlocks.init.*;
 import com.asher9.CompactBlocks.proxies.CommonProxy;
 
 import com.asher9.CompactBlocks.util.UpdateChecker;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
@@ -16,6 +20,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.oredict.OreDictionary;
 
 import java.io.File;
 
@@ -41,6 +46,11 @@ public class CompactBlocks {
         File configDir = new File(event.getModConfigurationDirectory(), "CompactBlocks");
         config = new CConfig(new File(configDir, "CompactBlocks.cfg"));
 
+        CInit.initAll();
+        CModItems.register();
+        CModBlocks.register();
+
+        proxy.registerRenders();
     }
 
     @EventHandler
@@ -50,6 +60,11 @@ public class CompactBlocks {
             UpdateChecker.init();
         }
 
+        proxy.init();
+        OreDictHandler.OreDictionary();
+        proxy.registerModelBakery();
+        CreativeTabCreator.init();
+        CFurnaceRecipes.furnaceRecipes();
     }
 
     @EventHandler
