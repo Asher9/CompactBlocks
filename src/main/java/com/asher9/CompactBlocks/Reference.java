@@ -23,7 +23,7 @@ public class Reference {
     public static final String VERSION = "v4.0_1.12.2";
     public static final String ClientSide = "com.asher9.CompactBlocks.proxies.ClientProxy";
     public static final String ServerSide = "com.asher9.CompactBlocks.proxies.CommonProxy";
-    public static final String GuiFactory = "";
+    public static final String GuiFactory = "com.asher9.CompactBlock.config.GuiFactory";
     public static final String updateURL = "https://raw.githubusercontent.com/Asher9/CompactBlocks/1.12.2/ModVersion.txt";
 
 }
