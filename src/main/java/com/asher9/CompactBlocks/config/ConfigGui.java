@@ -26,8 +26,17 @@ public class ConfigGui extends GuiConfig {
         List<IConfigElement> settingsList = new ArrayList<>();
 
         //World Settings
+        worldList.add(new DummyConfigElement("oreGenEnderiumOre", true, ConfigGuiType.BOOLEAN, "config.oreGenEnderiumOre").setRequiresWorldRestart(true));
+        worldList.add(new DummyConfigElement("oreGenNetherEnderiumOre", true, ConfigGuiType.BOOLEAN, "config.oreGenNetherEnderiumOre").setRequiresWorldRestart(true));
+        worldList.add(new DummyConfigElement("oreGenEndEnderiumOre", true, ConfigGuiType.BOOLEAN, "config.oreGenEndEnderiumOre").setRequiresWorldRestart(true));
+        list.add(new DummyCategoryElement("lists", "config.worldSettings", worldList));
 
         //Recipe Settings
+        worldList.add(new DummyConfigElement("recipeCobblestonePickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeCobblestonePickaxe").setRequiresMcRestart(true));
+        worldList.add(new DummyConfigElement("recipeDirtPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeDirtPickaxe").setRequiresMcRestart(true));
+        worldList.add(new DummyConfigElement("recipeSandPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeSandPickaxe").setRequiresMcRestart(true));
+        worldList.add(new DummyConfigElement("recipeGravelPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeGravelPickaxe").setRequiresMcRestart(true));
+        list.add(new DummyCategoryElement("lists", "config.recipes", recipeList));
 
         //Update Settings
         updateList.add(new DummyConfigElement("checkForUpdates", true, ConfigGuiType.BOOLEAN, "config.checkForUpdates"));
@@ -35,8 +44,20 @@ public class ConfigGui extends GuiConfig {
         list.add(new DummyCategoryElement("lists", "config.updateSettings", updateList));
 
         //Block Settings
+        blockList.add(new DummyConfigElement("activateCompressedCobblestone", true, ConfigGuiType.BOOLEAN, "config.activateCompressedCobblestone").setRequiresMcRestart(true));
+        blockList.add(new DummyConfigElement("activateCompressedGravel", true, ConfigGuiType.BOOLEAN, "config.activateCompressedGravel").setRequiresMcRestart(true));
+        blockList.add(new DummyConfigElement("activateCompressedSand", true, ConfigGuiType.BOOLEAN, "config.activateCompressedSand").setRequiresMcRestart(true));
+        blockList.add(new DummyConfigElement("activateCompressedNetherrack", true, ConfigGuiType.BOOLEAN, "config.activateCompressedNetherrack").setRequiresMcRestart(true));
+        blockList.add(new DummyConfigElement("activateCompressedEndStone", true, ConfigGuiType.BOOLEAN, "config.activateCompressedEndStone").setRequiresMcRestart(true));
+        blockList.add(new DummyConfigElement("activateCompressedDirt", true, ConfigGuiType.BOOLEAN, "config.activateCompressedDirt").setRequiresMcRestart(true));
+        blockList.add(new DummyConfigElement("activateCompressedSoulSand", true, ConfigGuiType.BOOLEAN, "config.activateCompressedSoulSand").setRequiresMcRestart(true));
+        list.add(new DummyCategoryElement("lists", "config.blockSettings", blockList));
 
         //General Settings
+        settingsList.add(new DummyConfigElement("creativeTabSearch", true, ConfigGuiType.BOOLEAN, "config.creativeTabSearch"));
+        settingsList.add(new DummyConfigElement("blockHardness", true, ConfigGuiType.DOUBLE, "config.blockHardness").setRequiresMcRestart(true));
+        settingsList.add(new DummyConfigElement("blockResistance", true, ConfigGuiType.DOUBLE, "config.blockResistance").setRequiresMcRestart(true));
+        list.add(new DummyCategoryElement("lists", "config.generalSettings", settingsList));
 
         return list;
     }
