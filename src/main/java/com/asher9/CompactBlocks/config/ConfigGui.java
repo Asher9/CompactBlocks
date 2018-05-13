@@ -32,14 +32,14 @@ public class ConfigGui extends GuiConfig {
         list.add(new DummyCategoryElement("lists", "config.worldSettings", worldList));
 
         //Recipe Settings
-        worldList.add(new DummyConfigElement("recipeCobblestonePickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeCobblestonePickaxe").setRequiresMcRestart(true));
-        worldList.add(new DummyConfigElement("recipeDirtPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeDirtPickaxe").setRequiresMcRestart(true));
-        worldList.add(new DummyConfigElement("recipeSandPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeSandPickaxe").setRequiresMcRestart(true));
-        worldList.add(new DummyConfigElement("recipeGravelPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeGravelPickaxe").setRequiresMcRestart(true));
+        recipeList.add(new DummyConfigElement("recipeCobblestonePickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeCobblestonePickaxe").setRequiresMcRestart(true));
+        recipeList.add(new DummyConfigElement("recipeDirtPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeDirtPickaxe").setRequiresMcRestart(true));
+        recipeList.add(new DummyConfigElement("recipeSandPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeSandPickaxe").setRequiresMcRestart(true));
+        recipeList.add(new DummyConfigElement("recipeGravelPickaxe", true, ConfigGuiType.BOOLEAN, "config.recipeGravelPickaxe").setRequiresMcRestart(true));
         list.add(new DummyCategoryElement("lists", "config.recipes", recipeList));
 
         //Update Settings
-        updateList.add(new DummyConfigElement("checkForUpdates", true, ConfigGuiType.BOOLEAN, "config.checkForUpdates"));
+        updateList.add(new DummyConfigElement("checkUpdates", true, ConfigGuiType.BOOLEAN, "config.checkUpdates"));
         updateList.add(new DummyConfigElement("updateAddress", Reference.getUpdateURL(), ConfigGuiType.STRING, "config.updateAddress"));
         list.add(new DummyCategoryElement("lists", "config.updateSettings", updateList));
 
