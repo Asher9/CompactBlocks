@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "compactBlocks:doublecompressedCobblestone",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "compactBlocks:compressedCobblestone",
+    "count": 9
+  }
+}
