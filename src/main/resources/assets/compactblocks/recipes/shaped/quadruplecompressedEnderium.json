@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compactBlocks:triplecompressedEnderium",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "compactBlocks:quadruplecompressedEnderium",
+    "data": 0
+  }
+}

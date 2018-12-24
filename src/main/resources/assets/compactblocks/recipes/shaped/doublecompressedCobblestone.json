@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compactBlocks:compressedCobblestone",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "compactBlocks:doublecompressedCobblestone",
+    "data": 0
+  }
+}

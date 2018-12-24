@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "compactBlocks:triplecompressedDirt",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "compactBlocks:quadruplecompressedDirt",
+    "data": 0
+  }
+}

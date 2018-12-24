@@ -7,11 +7,12 @@
   ],
   "key": {
     "#": {
-      "item": "compactBlocks:doublecompressedCobblestone"
+      "item": "compactBlocks:triplecompressedObsidian",
+      "data": 0
     }
   },
   "result": {
-    "item": "compactBlocks:triplecompressedCobblestone",
+    "item": "compactBlocks:quadruplecompressedObsidian",
     "data": 0
   }
 }
