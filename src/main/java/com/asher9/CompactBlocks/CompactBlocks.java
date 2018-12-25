@@ -61,15 +61,15 @@ public class CompactBlocks {
         }
 
         proxy.init();
-        OreDictHandler.OreDictionary();
         proxy.registerModelBakery();
+        OreDictHandler.OreDictionary();
         CreativeTabCreator.init();
-        CFurnaceRecipes.furnaceRecipes();
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-
+        CFurnaceRecipes.init();
+        CShapedCrafting.init();
     }
 
     @SubscribeEvent

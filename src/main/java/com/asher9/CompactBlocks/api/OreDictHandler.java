@@ -11,8 +11,8 @@ public class OreDictHandler {
 	
 	public static void OreDictionary() {
 		 CLogger.getLogger().info("Loading Items into Ore Dictionary...");
-		 
-		 OreDictionary.registerOre("ingotEnderium", CItems.ingotEnderium);
+
+		 OreDictionary.registerOre("ingotEnderium", new ItemStack(CItems.ingotEnderium));
 		 OreDictionary.registerOre("blockEnderium", CBlocks.blockEnderium);
 		 OreDictionary.registerOre("oreEnderium", CBlocks.oreEnderium);
 		 OreDictionary.registerOre("oreNetherEnderium", CBlocks.oreNetherEnderium);
