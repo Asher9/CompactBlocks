@@ -6,7 +6,6 @@ import com.asher9.CompactBlocks.Reference;
 import com.asher9.CompactBlocks.ItemBlocks.IMetaBlockName;
 import com.asher9.CompactBlocks.api.EnumHandler.WoodTypes;
 
-import com.sun.istack.internal.NotNull;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
