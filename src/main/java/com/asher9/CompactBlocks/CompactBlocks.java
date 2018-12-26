@@ -70,6 +70,7 @@ public class CompactBlocks {
     public void postInit(FMLPostInitializationEvent event) {
         CFurnaceRecipes.init();
         CShapedCrafting.init();
+        CShapelessCrafting.init();
     }
 
     @SubscribeEvent
