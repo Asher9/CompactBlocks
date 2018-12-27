@@ -483,7 +483,11 @@ tile.quadruplecompressedSeaLantern.name=Quadruple Compressed Sea Lantern
 tile.compressedNetherWartBlock.name=Compressed Nether Wart Block 
 tile.doublecompressedNetherWartBlock.name=Double Compressed Nether Wart Block 
 tile.triplecompressedNetherWartBlock.name=Triple Compressed Nether Wart Block 
-tile.quadruplecompressedNetherWartBlock.name=Quadruple Compressed Nether Wart Block 
+tile.quadruplecompressedNetherWartBlock.name=Quadruple Compressed Nether Wart Block
+tile.compressedSlime.name=Compressed Slime Block
+tile.doublecompressedSlime.name=Double Compressed Slime Block
+tile.triplecompressedSlime.name=Triple Compressed Slime Block
+tile.quadruplecompressedSlime.name=Quadruple Compressed Slime Block
 
 # Tabs
 itemGroup.tabcompressedBlocks=Compressed Blocks

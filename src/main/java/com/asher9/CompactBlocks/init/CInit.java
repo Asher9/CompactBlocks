@@ -383,10 +383,10 @@ public class CInit {
         CBlocks.triplecompressedQuartzOre = new compressedNetherWartBlock(Material.ROCK, "triplecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         CBlocks.quadruplecompressedQuartzOre = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedSlime = new compressedNetherWartBlock(Material.ROCK, "compressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
-        CBlocks.doublecompressedSlime = new compressedNetherWartBlock(Material.ROCK, "doublecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
-        CBlocks.triplecompressedSlime = new compressedNetherWartBlock(Material.ROCK, "triplecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
-        CBlocks.quadruplecompressedSlime = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
+        CBlocks.compressedSlime = new compressedSlime(Material.ROCK, false, "compressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
+        CBlocks.doublecompressedSlime = new compressedSlime(Material.ROCK, false, "doublecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
+        CBlocks.triplecompressedSlime = new compressedSlime(Material.ROCK, false, "triplecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
+        CBlocks.quadruplecompressedSlime = new compressedSlime(Material.ROCK, false, "quadruplecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
         
         CBlocks.compressedRedSandstone = new compressedNetherWartBlock(Material.ROCK, "compressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         CBlocks.doublecompressedRedSandstone = new compressedNetherWartBlock(Material.ROCK, "doublecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
