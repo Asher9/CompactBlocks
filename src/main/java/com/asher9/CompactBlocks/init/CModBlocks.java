@@ -682,24 +682,19 @@ public class CModBlocks {
 	private static void registerBlock(Block block) {
 		ForgeRegistries.BLOCKS.register(block);
 		ForgeRegistries.ITEMS.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
-		CLogger.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
 	}
 	
 	private static void registerBlock(Block block, ItemBlock itemBlock) {
         ForgeRegistries.BLOCKS.register(block);
 		ForgeRegistries.ITEMS.register(itemBlock.setRegistryName(block.getRegistryName()));
-		CLogger.getLogger().info("Registered Block: " + block.getUnlocalizedName().substring(5));
 	}
 	
 	private static void registerRender(Block block) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(new ResourceLocation(Reference.getMODID(), block.getUnlocalizedName().substring(5)), "inventory"));
-		CLogger.getLogger().info(new ResourceLocation(Reference.getMODID(), block.getUnlocalizedName().substring(5)));
-		CLogger.getLogger().info("Registered Render for: " + block.getUnlocalizedName().substring(5));
 	}
 
 	private static void registerRender(Block block, int meta, String fileName) {
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), meta, new ModelResourceLocation(new ResourceLocation(Reference.getMODID(), fileName), "inventory"));
-		CLogger.getLogger().info("Registered Render for: " + block.getUnlocalizedName().substring(5));
 	}
 	
 }

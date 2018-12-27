@@ -1,4 +1,4 @@
-package com.asher9.CompactBlocks.config;
+/*package com.asher9.CompactBlocks.config;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
@@ -28,3 +28,4 @@ public class GuiFactory implements IModGuiFactory {
         return null;
     }
 }
+*/

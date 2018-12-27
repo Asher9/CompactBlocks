@@ -2,6 +2,7 @@ package com.asher9.CompactBlocks.util;
 
 import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
+import com.asher9.CompactBlocks.config.CConfig;
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.util.text.TextFormatting;
@@ -12,7 +13,7 @@ import java.util.Scanner;
 
 public class UpdateChecker {
 
-    private static final String UPDATE_URL = CompactBlocks.config.cache.updateAddress;
+    private static final String UPDATE_URL = CConfig.updateSettings.updateAddress;
     private static String currentVersion = Reference.getVERSION();
     private static String newestVersion;
 

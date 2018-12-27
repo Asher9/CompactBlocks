@@ -42,12 +42,10 @@ public class CModItems {
 	private static void registerItem(Item item) {
 		ForgeRegistries.ITEMS.register(item);
 		item.setCreativeTab(CreativeTabCreator.tabcompressedItems);
-		CLogger.getLogger().info("Registered Item: " + item.getUnlocalizedName().substring(5));
 	}
 	
 	private static void registerRender(Item item) {
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(Reference.getMODID(), item.getUnlocalizedName().substring(5)), "inventory"));
-		CLogger.getLogger().info("Registered Render for: " + item.getUnlocalizedName().substring(5));
 	}
 	
 }

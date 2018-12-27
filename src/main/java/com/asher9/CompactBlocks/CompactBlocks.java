@@ -10,7 +10,6 @@ import com.asher9.CompactBlocks.proxies.CommonProxy;
 import com.asher9.CompactBlocks.util.UpdateChecker;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.ModMetadata;
@@ -18,15 +17,12 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-import java.io.File;
-
-@Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION, guiFactory = Reference.GuiFactory)
+@Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.acceptedMCV)
 
 public class CompactBlocks {
 
-    public static CConfig config;
+    //public static CConfigAlt config;
 
     @SidedProxy(clientSide = Reference.ClientSide, serverSide = Reference.ServerSide)
     private static CommonProxy proxy;
@@ -41,8 +37,8 @@ public class CompactBlocks {
         data.credits = TextFormatting.BLUE + "Asher_9";
         data.authorList.add(TextFormatting.BLUE + "Asher_9");
 
-        File configDir = new File(event.getModConfigurationDirectory(), "CompactBlocks");
-        config = new CConfig(new File(configDir, "CompactBlocks.cfg"));
+        //File configDir = new File(event.getModConfigurationDirectory(), "CompactBlocks");
+        //config = new CConfigAlt(new File(configDir, "CompactBlocks.cfg"));
 
         CInit.initAll();
         CModItems.register();
@@ -53,7 +49,7 @@ public class CompactBlocks {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        if (event.getSide().isClient() && CompactBlocks.config.cache.checkUpdates) {
+        if (event.getSide().isClient() && CConfig.updateSettings.checkUpdates) {
             MinecraftForge.EVENT_BUS.register(new Events());
             UpdateChecker.init();
         }
@@ -70,11 +66,4 @@ public class CompactBlocks {
         CShapedCrafting.init();
         CShapelessCrafting.init();
     }
-
-    @SubscribeEvent
-    public void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
-        if (event.getModID().equals(Reference.getMODID()))
-            config.syncConfig();
-    }
-
 }

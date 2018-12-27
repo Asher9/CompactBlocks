@@ -1,4 +1,4 @@
-package com.asher9.CompactBlocks.config;
+/*package com.asher9.CompactBlocks.config;
 
 import com.asher9.CompactBlocks.Reference;
 import net.minecraft.client.gui.GuiScreen;
@@ -62,3 +62,4 @@ public class ConfigGui extends GuiConfig {
         return list;
     }
 }
+*/

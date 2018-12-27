@@ -2,7 +2,7 @@ language.name=English
 language.region=United States
 language.code=en_us
 
-//Blocks
+# Blocks
 tile.testSidedBlock.name=Test Sided Block
 tile.compressedCobblestone.name=Compressed Cobblestone
 tile.doublecompressedCobblestone.name=Double Compressed Cobblestone
@@ -485,7 +485,7 @@ tile.doublecompressedNetherWartBlock.name=Double Compressed Nether Wart Block
 tile.triplecompressedNetherWartBlock.name=Triple Compressed Nether Wart Block 
 tile.quadruplecompressedNetherWartBlock.name=Quadruple Compressed Nether Wart Block 
 
-//Tabs
+# Tabs
 itemGroup.tabcompressedBlocks=Compressed Blocks
 itemGroup.tabcompressedItems=Compressed Items
 itemGroup.tabcompressedGlassBlocks=Compressed Glass Blocks
@@ -493,7 +493,7 @@ itemGroup.tabcompressedClayBlocks=Compressed Clay Blocks
 itemGroup.tabcompressedWoolBlocks=Compressed Wool Blocks
 itemGroup.tabcompressedWoodBlocks=Compressed Wood Blocks
 
-//Items
+# Items
 item.ingotEnderium.name=Enderium Ingot
 item.enderiumPickaxe.name=Enderium Pickaxe
 item.enderiumAxe.name=Enderium Axe
@@ -506,31 +506,34 @@ item.enderiumShovel.name=Enderium Shovel
 item.nuggetEnderium.name=Enderium Nugget
 item.dustEnderium.name=Enderium Dust
 
-//Entities
-entity.Human.name=Human
+# Config Gui
+compactblocks.config.title=Compact Blocks Config
 
-//Config Gui
-config.oreGenEnderiumOre=Enderium Ore World Gen
-config.oreGenNetherEnderiumOre=Nether Enderium Ore Gen
-config.oreGenEndEnderiumOre=End Enderium Ore World Gen
-config.worldSettings=World Settings
-config.recipeCobblestonePickaxe=Activate Cobblestone Pickaxe
-config.recipeDirtPickaxe=Activate Dirt Pickaxe
-config.recipeSandPickaxe=Activate Sand Pickaxe
-config.recipeGravelPickaxe=Activate Gravel Pickaxe
-config.recipes=Recipes
-config.checkUpdates=Check for Updates
-config.updateAddress=Address for Update checking
-config.updateSettings=Update Settings
-config.activateCompressedCobblestone=Activate Compressed Cobblestone
-config.activateCompressedGravel=Activate Compressed Gravel
-config.activateCompressedSand=Activate Compressed Sand
-config.activateCompressedNetherrack=Activate Compressed Netherrack
-config.activateCompressedEndStone=Activate Compressed EndStone
-config.activateCompressedDirt=Activate Compressed Dirt
-config.activateCompressedSoulSand=Activate Compressed SoulSand
-config.blockSettings=Block Settings
-config.creativeTabSearch=Searchbar in Creative Tabs
-config.blockHardness=Hardness of the Blocks
-config.blockResistance=Resistance of the Blocks
-config.generalSettings=General Settings
+compactblocks.general.worldsettings=World Settings
+compactblocks.general.worldsettings.oregenenderiumore=Enderium Ore World Gen
+compactblocks.general.worldsettings.oregennetherenderiumore=Nether Enderium Ore Gen
+compactblocks.general.worldsettings.oregenendenderiumore=End Enderium Ore World Gen
+
+compactblocks.general.recipes=Recipes
+compactblocks.general.recipes.activatecobblestonepickaxe=Activate Cobblestone Pickaxe
+compactblocks.general.recipes.activatedirtpickaxe=Activate Dirt Pickaxe
+compactblocks.general.recipes.activatesandpickaxe=Activate Sand Pickaxe
+compactblocks.general.recipes.activategravelpickaxe=Activate Gravel Pickaxe
+
+compactblocks.general.updatesettings=Update Settings
+compactblocks.general.updatesettings.checkupdates=Check for Updates
+compactblocks.general.updatesettings.updateaddress=Address for Update check
+
+compactblocks.general.blocksettings=Block Settings
+compactblocks.general.blocksettings.activatecompressedcobblestone=Activate Compressed Cobblestone
+compactblocks.general.blocksettings.activatecompressedgravel=Activate Compressed Gravel
+compactblocks.general.blocksettings.activatecompressedsand=Activate Compressed Sand
+compactblocks.general.blocksettings.activatecompressednetherrack=Activate Compressed Netherrack
+compactblocks.general.blocksettings.activatecompressedendstone=Activate Compressed EndStone
+compactblocks.general.blocksettings.activatecompresseddirt=Activate Compressed Dirt
+compactblocks.general.blocksettings.activatecompressedsoulsand=Activate Compressed SoulSand
+
+compactblocks.general.generalsettings=General Settings
+compactblocks.general.generalsettings.creativetabsearch=Searchbar in Creative Tabs
+compactblocks.general.generalsettings.blockhardness=Blocks Hardness
+compactblocks.general.generalsettings.blockresistance=Blocks Resistance

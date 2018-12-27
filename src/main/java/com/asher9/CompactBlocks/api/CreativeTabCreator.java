@@ -1,6 +1,7 @@
 package com.asher9.CompactBlocks.api;
 
 import com.asher9.CompactBlocks.CompactBlocks;
+import com.asher9.CompactBlocks.config.CConfig;
 import com.asher9.CompactBlocks.init.CBlocks;
 import com.asher9.CompactBlocks.init.CItems;
 import com.asher9.CompactBlocks.util.CLogger;
@@ -15,7 +16,7 @@ public class CreativeTabCreator {
 
         public CustomCreativeTab(String label) {
             super(label);
-            if (CompactBlocks.config.cache.creativeTabSearch) {
+            if (CConfig.generalSettings.creativeTabSearch) {
                 setBackgroundImageName("item_search.png");
             }
         }
@@ -36,7 +37,7 @@ public class CreativeTabCreator {
 
         @Override
         public boolean hasSearchBar() {
-            return CompactBlocks.config.cache.creativeTabSearch;
+            return CConfig.generalSettings.creativeTabSearch;
         }
     }
 

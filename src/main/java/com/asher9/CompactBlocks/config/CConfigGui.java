@@ -1,4 +1,4 @@
-package com.asher9.CompactBlocks.config;
+/*package com.asher9.CompactBlocks.config;
 
 import com.asher9.CompactBlocks.CompactBlocks;
 import com.asher9.CompactBlocks.Reference;
@@ -19,9 +19,10 @@ public class CConfigGui extends GuiConfig {
     private static List<IConfigElement> getConfigElements() {
         List<IConfigElement> list = new ArrayList<>();
 
-        for (CConfig.ConfigSection section : CompactBlocks.config.sections)
+        for (CConfigAlt.ConfigSection section : CompactBlocks.config.sections)
             list.add(new ConfigElement((section.getCategory())));
 
         return list;
     }
 }
+*/
