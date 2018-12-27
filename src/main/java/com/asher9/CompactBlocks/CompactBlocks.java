@@ -8,7 +8,6 @@ import com.asher9.CompactBlocks.init.*;
 import com.asher9.CompactBlocks.proxies.CommonProxy;
 
 import com.asher9.CompactBlocks.util.UpdateChecker;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
@@ -20,7 +19,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import net.minecraftforge.oredict.OreDictionary;
 
 import java.io.File;
 
