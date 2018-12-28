@@ -343,100 +343,100 @@ public class CInit {
         CBlocks.triplecompressedNetherWartBlock = new compressedNetherWartBlock(Material.ROCK, "triplecompressedNetherWartBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.WOOD);
         CBlocks.quadruplecompressedNetherWartBlock = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedNetherWartBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.WOOD);
         
-        CBlocks.compressedMagmaBlock = new compressedNetherWartBlock(Material.ROCK, "compressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedMagmaBlock = new compressedNetherWartBlock(Material.ROCK, "doublecompressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedMagmaBlock = new compressedNetherWartBlock(Material.ROCK, "triplecompressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedMagmaBlock = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedMagmaBlock = new compressedMagmaBlock(Material.ROCK, "compressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedMagmaBlock = new compressedMagmaBlock(Material.ROCK, "doublecompressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedMagmaBlock = new compressedMagmaBlock(Material.ROCK, "triplecompressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedMagmaBlock = new compressedMagmaBlock(Material.ROCK, "quadruplecompressedMagmaBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedMycelium = new compressedNetherWartBlock(Material.ROCK, "compressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
-        CBlocks.doublecompressedMycelium = new compressedNetherWartBlock(Material.ROCK, "doublecompressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
-        CBlocks.triplecompressedMycelium = new compressedNetherWartBlock(Material.ROCK, "triplecompressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
-        CBlocks.quadruplecompressedMycelium = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
+        CBlocks.compressedMycelium = new compressedMycelium(Material.ROCK, "compressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
+        CBlocks.doublecompressedMycelium = new compressedMycelium(Material.ROCK, "doublecompressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
+        CBlocks.triplecompressedMycelium = new compressedMycelium(Material.ROCK, "triplecompressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
+        CBlocks.quadruplecompressedMycelium = new compressedMycelium(Material.ROCK, "quadruplecompressedMycelium", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.GROUND);
         
-        CBlocks.compressedPrismarineBricks = new compressedNetherWartBlock(Material.ROCK, "compressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedPrismarineBricks = new compressedNetherWartBlock(Material.ROCK, "doublecompressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedPrismarineBricks = new compressedNetherWartBlock(Material.ROCK, "triplecompressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedPrismarineBricks = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedPrismarineBricks = new compressedPrismarineBricks(Material.ROCK, "compressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedPrismarineBricks = new compressedPrismarineBricks(Material.ROCK, "doublecompressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedPrismarineBricks = new compressedPrismarineBricks(Material.ROCK, "triplecompressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedPrismarineBricks = new compressedPrismarineBricks(Material.ROCK, "quadruplecompressedPrismarineBricks", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedPrismarineDark = new compressedNetherWartBlock(Material.ROCK, "compressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedPrismarineDark = new compressedNetherWartBlock(Material.ROCK, "doublecompressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedPrismarineDark = new compressedNetherWartBlock(Material.ROCK, "triplecompressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedPrismarineDark = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedPrismarineDark = new compressedPrismarineDark(Material.ROCK, "compressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedPrismarineDark = new compressedPrismarineDark(Material.ROCK, "doublecompressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedPrismarineDark = new compressedPrismarineDark(Material.ROCK, "triplecompressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedPrismarineDark = new compressedPrismarineDark(Material.ROCK, "quadruplecompressedPrismarineDark", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedPrismarineRough = new compressedNetherWartBlock(Material.ROCK, "compressedPrismarineRough", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedPrismarineRough = new compressedNetherWartBlock(Material.ROCK, "doublecompressedPrismarineRough", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedPrismarineRough = new compressedNetherWartBlock(Material.ROCK, "triplecompressedPrismarineRough", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedPrismarineRough = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedPrismarineRough", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedPrismarineRough = new compressedPrismarineRough(Material.ROCK, "compressedPrismarine", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedPrismarineRough = new compressedPrismarineRough(Material.ROCK, "doublecompressedPrismarine", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedPrismarineRough = new compressedPrismarineRough(Material.ROCK, "triplecompressedPrismarine", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedPrismarineRough = new compressedPrismarineRough(Material.ROCK, "quadruplecompressedPrismarine", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedPurpurBlock = new compressedNetherWartBlock(Material.ROCK, "compressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedPurpurBlock = new compressedNetherWartBlock(Material.ROCK, "doublecompressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedPurpurBlock = new compressedNetherWartBlock(Material.ROCK, "triplecompressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedPurpurBlock = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedPurpurBlock = new compressedPurpurBlock(Material.ROCK, "compressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedPurpurBlock = new compressedPurpurBlock(Material.ROCK, "doublecompressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedPurpurBlock = new compressedPurpurBlock(Material.ROCK, "triplecompressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedPurpurBlock = new compressedPurpurBlock(Material.ROCK, "quadruplecompressedPurpurBlock", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedPurpurPillar = new compressedNetherWartBlock(Material.ROCK, "compressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedPurpurPillar = new compressedNetherWartBlock(Material.ROCK, "doublecompressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedPurpurPillar = new compressedNetherWartBlock(Material.ROCK, "triplecompressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedPurpurPillar = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedPurpurPillar = new compressedPurpurPillar(Material.ROCK, "compressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedPurpurPillar = new compressedPurpurPillar(Material.ROCK, "doublecompressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedPurpurPillar = new compressedPurpurPillar(Material.ROCK, "triplecompressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedPurpurPillar = new compressedPurpurPillar(Material.ROCK, "quadruplecompressedPurpurPillar", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedQuartzOre = new compressedNetherWartBlock(Material.ROCK, "compressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedQuartzOre = new compressedNetherWartBlock(Material.ROCK, "doublecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedQuartzOre = new compressedNetherWartBlock(Material.ROCK, "triplecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedQuartzOre = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedQuartzOre = new compressedQuartzOre(Material.ROCK, "compressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedQuartzOre = new compressedQuartzOre(Material.ROCK, "doublecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedQuartzOre = new compressedQuartzOre(Material.ROCK, "triplecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedQuartzOre = new compressedQuartzOre(Material.ROCK, "quadruplecompressedQuartzOre", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
         CBlocks.compressedSlime = new compressedSlime(Material.ROCK, false, "compressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
         CBlocks.doublecompressedSlime = new compressedSlime(Material.ROCK, false, "doublecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
         CBlocks.triplecompressedSlime = new compressedSlime(Material.ROCK, false, "triplecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
         CBlocks.quadruplecompressedSlime = new compressedSlime(Material.ROCK, false, "quadruplecompressedSlime", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.SLIME);
         
-        CBlocks.compressedRedSandstone = new compressedNetherWartBlock(Material.ROCK, "compressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedRedSandstone = new compressedNetherWartBlock(Material.ROCK, "doublecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedRedSandstone = new compressedNetherWartBlock(Material.ROCK, "triplecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedRedSandstone = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedRedSandstone = new compressedRedSandstone(Material.ROCK, "compressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedRedSandstone = new compressedRedSandstone(Material.ROCK, "doublecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedRedSandstone = new compressedRedSandstone(Material.ROCK, "triplecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedRedSandstone = new compressedRedSandstone(Material.ROCK, "quadruplecompressedRedSandstone", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedRedSandstoneCarved = new compressedNetherWartBlock(Material.ROCK, "compressedRedSandstoneCarved", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedRedSandstoneCarved = new compressedNetherWartBlock(Material.ROCK, "doublecompressedRedSandstoneCarved", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedRedSandstoneCarved = new compressedNetherWartBlock(Material.ROCK, "triplecompressedRedSandstoneCarved", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedRedSandstoneCarved = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedRedSandstoneCarved", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedRedSandstoneCarved = new compressedRedSandstoneCarved(Material.ROCK, "compressedRedSandstoneChiseled", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedRedSandstoneCarved = new compressedRedSandstoneCarved(Material.ROCK, "doublecompressedRedSandstoneChiseled", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedRedSandstoneCarved = new compressedRedSandstoneCarved(Material.ROCK, "triplecompressedRedSandstoneChiseled", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedRedSandstoneCarved = new compressedRedSandstoneCarved(Material.ROCK, "quadruplecompressedRedSandstoneChiseled", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedRedSandstoneSmooth = new compressedNetherWartBlock(Material.ROCK, "compressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedRedSandstoneSmooth = new compressedNetherWartBlock(Material.ROCK, "doublecompressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedRedSandstoneSmooth = new compressedNetherWartBlock(Material.ROCK, "triplecompressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedRedSandstoneSmooth = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedRedSandstoneSmooth = new compressedRedSandstoneSmooth(Material.ROCK, "compressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedRedSandstoneSmooth = new compressedRedSandstoneSmooth(Material.ROCK, "doublecompressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedRedSandstoneSmooth = new compressedRedSandstoneSmooth(Material.ROCK, "triplecompressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedRedSandstoneSmooth = new compressedRedSandstoneSmooth(Material.ROCK, "quadruplecompressedRedSandstoneSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedSpongeWet = new compressedNetherWartBlock(Material.ROCK, "compressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
-        CBlocks.doublecompressedSpongeWet = new compressedNetherWartBlock(Material.ROCK, "doublecompressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
-        CBlocks.triplecompressedSpongeWet = new compressedNetherWartBlock(Material.ROCK, "triplecompressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
-        CBlocks.quadruplecompressedSpongeWet = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
+        CBlocks.compressedSpongeWet = new compressedSpongeWet(Material.ROCK, "compressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
+        CBlocks.doublecompressedSpongeWet = new compressedSpongeWet(Material.ROCK, "doublecompressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
+        CBlocks.triplecompressedSpongeWet = new compressedSpongeWet(Material.ROCK, "triplecompressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
+        CBlocks.quadruplecompressedSpongeWet = new compressedSpongeWet(Material.ROCK, "quadruplecompressedSpongeWet", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.PLANT);
         
-        CBlocks.compressedAndersite = new compressedNetherWartBlock(Material.ROCK, "compressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedAndersite = new compressedNetherWartBlock(Material.ROCK, "doublecompressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedAndersite = new compressedNetherWartBlock(Material.ROCK, "triplecompressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedAndersite = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedAndersite = new compressedAndersite(Material.ROCK, "compressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedAndersite = new compressedAndersite(Material.ROCK, "doublecompressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedAndersite = new compressedAndersite(Material.ROCK, "triplecompressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedAndersite = new compressedAndersite(Material.ROCK, "quadruplecompressedAndersite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedAndersiteSmooth = new compressedNetherWartBlock(Material.ROCK, "compressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedAndersiteSmooth = new compressedNetherWartBlock(Material.ROCK, "doublecompressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedAndersiteSmooth = new compressedNetherWartBlock(Material.ROCK, "triplecompressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedAndersiteSmooth = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedAndersiteSmooth = new compressedAndersiteSmooth(Material.ROCK, "compressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedAndersiteSmooth = new compressedAndersiteSmooth(Material.ROCK, "doublecompressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedAndersiteSmooth = new compressedAndersiteSmooth(Material.ROCK, "triplecompressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedAndersiteSmooth = new compressedAndersiteSmooth(Material.ROCK, "quadruplecompressedAndersiteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedDiorite = new compressedNetherWartBlock(Material.ROCK, "compressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedDiorite = new compressedNetherWartBlock(Material.ROCK, "doublecompressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedDiorite = new compressedNetherWartBlock(Material.ROCK, "triplecompressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedDiorite = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedDiorite = new compressedDiorite(Material.ROCK, "compressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedDiorite = new compressedDiorite(Material.ROCK, "doublecompressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedDiorite = new compressedDiorite(Material.ROCK, "triplecompressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedDiorite = new compressedDiorite(Material.ROCK, "quadruplecompressedDiorite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedDioriteSmooth = new compressedNetherWartBlock(Material.ROCK, "compressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedDioriteSmooth = new compressedNetherWartBlock(Material.ROCK, "doublecompressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedDioriteSmooth = new compressedNetherWartBlock(Material.ROCK, "triplecompressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedDioriteSmooth = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedDioriteSmooth = new compressedDioriteSmooth(Material.ROCK, "compressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedDioriteSmooth = new compressedDioriteSmooth(Material.ROCK, "doublecompressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedDioriteSmooth = new compressedDioriteSmooth(Material.ROCK, "triplecompressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedDioriteSmooth = new compressedDioriteSmooth(Material.ROCK, "quadruplecompressedDioriteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedGranite = new compressedNetherWartBlock(Material.ROCK, "compressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedGranite = new compressedNetherWartBlock(Material.ROCK, "doublecompressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedGranite = new compressedNetherWartBlock(Material.ROCK, "triplecompressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedGranite = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedGranite = new compressedGranite(Material.ROCK, "compressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedGranite = new compressedGranite(Material.ROCK, "doublecompressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedGranite = new compressedGranite(Material.ROCK, "triplecompressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedGranite = new compressedGranite(Material.ROCK, "quadruplecompressedGranite", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
         
-        CBlocks.compressedGraniteSmooth = new compressedNetherWartBlock(Material.ROCK, "compressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.doublecompressedGraniteSmooth = new compressedNetherWartBlock(Material.ROCK, "doublecompressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.triplecompressedGraniteSmooth = new compressedNetherWartBlock(Material.ROCK, "triplecompressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
-        CBlocks.quadruplecompressedGraniteSmooth = new compressedNetherWartBlock(Material.ROCK, "quadruplecompressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.compressedGraniteSmooth = new compressedGraniteSmooth(Material.ROCK, "compressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.doublecompressedGraniteSmooth = new compressedGraniteSmooth(Material.ROCK, "doublecompressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.triplecompressedGraniteSmooth = new compressedGraniteSmooth(Material.ROCK, "triplecompressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
+        CBlocks.quadruplecompressedGraniteSmooth = new compressedGraniteSmooth(Material.ROCK, "quadruplecompressedGraniteSmooth", Hardness, Resistance, 0, Tool, ToolLevel, CreativeTabCreator.tabcompressedBlocks, SoundType.STONE);
 	}
 
 }
