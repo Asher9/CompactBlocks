@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "type=white": { "model": "compactblocks:quadruplecompressedHardenedClayWhite" },
+		"type=orange": { "model": "compactblocks:quadruplecompressedHardenedClayOrange" },
+		"type=magenta": { "model": "compactblocks:quadruplecompressedHardenedClayMagenta" },
+		"type=lightblue": { "model": "compactblocks:quadruplecompressedHardenedClayLightBlue" },
+		"type=yellow": { "model": "compactblocks:quadruplecompressedHardenedClayYellow" },
+		"type=lime": { "model": "compactblocks:quadruplecompressedHardenedClayLime" },
+		"type=pink": { "model": "compactblocks:quadruplecompressedHardenedClayPink" },
+		"type=gray": { "model": "compactblocks:quadruplecompressedHardenedClayGray" },
+		"type=lightgray": { "model": "compactblocks:quadruplecompressedHardenedClayLightGray" },
+		"type=cyan": { "model": "compactblocks:quadruplecompressedHardenedClayCyan" },
+		"type=purple": { "model": "compactblocks:quadruplecompressedHardenedClayPurple" },
+		"type=blue": { "model": "compactblocks:quadruplecompressedHardenedClayBlue" },
+		"type=brown": { "model": "compactblocks:quadruplecompressedHardenedClayBrown" },
+		"type=green": { "model": "compactblocks:quadruplecompressedHardenedClayGreen" },
+		"type=red": { "model": "compactblocks:quadruplecompressedHardenedClayRed" },
+		"type=black": { "model": "compactblocks:quadruplecompressedHardenedClayBlack" }
+    }
+}

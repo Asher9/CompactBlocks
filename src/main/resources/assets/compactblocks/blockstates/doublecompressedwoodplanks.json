@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "type=oak": { "model": "compactblocks:doublecompressedWoodPlanksOak" },
+		"type=spruce": { "model": "compactblocks:doublecompressedWoodPlanksSpruce" },
+		"type=birch": { "model": "compactblocks:doublecompressedWoodPlanksBirch" },
+		"type=jungle": { "model": "compactblocks:doublecompressedWoodPlanksJungle" },
+		"type=acacia": { "model": "compactblocks:doublecompressedWoodPlanksAcacia" },
+		"type=darkoak": { "model": "compactblocks:doublecompressedWoodPlanksDarkOak" }
+    }
+}

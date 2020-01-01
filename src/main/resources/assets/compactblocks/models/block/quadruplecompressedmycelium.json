@@ -1,0 +1,11 @@
+{
+    "parent": "compactblocks:block/orientable",
+    "textures": {
+		"up": "compactblocks:blocks/quadruplecompressedMycelium_top",
+		"down": "compactblocks:blocks/quadruplecompressedDirt",
+        "north": "compactblocks:blocks/quadruplecompressedMycelium_side",
+		"south": "compactblocks:blocks/quadruplecompressedMycelium_side",
+		"west": "compactblocks:blocks/quadruplecompressedMycelium_side",
+		"east": "compactblocks:blocks/quadruplecompressedMycelium_side"
+    }
+}
