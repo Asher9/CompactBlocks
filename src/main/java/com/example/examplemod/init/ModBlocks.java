@@ -2,10 +2,11 @@ package com.example.examplemod.init;
 
 import com.example.examplemod.ModUtil;
 import com.example.examplemod.Reference;
-import net.minecraft.item.Item;
+import net.minecraft.block.Block;
 import net.minecraftforge.registries.ObjectHolder;
 
 @ObjectHolder(Reference.MODID)
-public final class ModItems {
-    public static final Item EXAMPLE_ITEM = ModUtil._null();
+public final class ModBlocks {
+
+    public static final Block MINI_MODEL = ModUtil._null();
 }
