@@ -1,20 +1,18 @@
 package com.example.examplemod;
 
-import com.example.examplemod.block.MiniModelBlock;
-import com.example.examplemod.client.render.MiniModel;
-import com.example.examplemod.init.ModBlocks;
+import com.example.examplemod.config.ConfigHelper;
+import com.example.examplemod.config.ConfigHolder;
 import com.example.examplemod.init.ModItemGroups;
-import com.example.examplemod.tileentity.MiniModelTileEntity;
 import com.google.common.base.Preconditions;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.IForgeRegistry;
 import net.minecraftforge.registries.IForgeRegistryEntry;
@@ -27,8 +25,7 @@ public class ModEventSubscriber {
     @SubscribeEvent
     public static void onRegisterBlocks(RegistryEvent.Register<Block> event) {
         event.getRegistry().registerAll(
-                setup(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)), "example_ore"),
-                setup(new MiniModelBlock(Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(3.5F).lightValue(13)), "mini_model")
+                setup(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)), "example_ore")
         );
     }
 
@@ -49,13 +46,14 @@ public class ModEventSubscriber {
     }
 
     @SubscribeEvent
-    public static void onRegisterTileEntityTypes(@Nonnull final RegistryEvent.Register<TileEntityType<?>> event) {
-        event.getRegistry().registerAll(
-                setup(TileEntityType.Builder.create(MiniModelTileEntity::new, ModBlocks.MINI_MODEL).build(null), "mini_model")
-        );
+    public static void onModConfigEvent(final ModConfig.ModConfigEvent event) {
+        final ModConfig config = event.getConfig();
+        if (config.getSpec() == ConfigHolder.CLIENT_SPEC) {
+            ConfigHelper.bakeClient(config);
+        } else if (config.getSpec() == ConfigHolder.SERVER_SPEC) {
+            ConfigHelper.bakeServer(config);
+        }
     }
-
-
 
     @Nonnull
     public static <T extends IForgeRegistryEntry<T>> T setup(@Nonnull final T entry, @Nonnull final String name) {
